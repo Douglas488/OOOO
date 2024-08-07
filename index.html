@@ -31,7 +31,7 @@
             transition: transform 0.3s ease-in-out;
         }
         .sidebar.hidden {
-            transform: translateY(-100%);
+            transform: translateX(-100%);
         }
         .sidebar a {
             display: block;
@@ -49,7 +49,7 @@
         .sidebar a:hover {
             background-color: #0072ff;
             color: #ffffff;
-            transform: translateY(5px);
+            transform: translateX(5px);
         }
         .content {
             width: 95%;
@@ -75,7 +75,6 @@
             height: 100%;
             border-radius: 8px;
             overflow: hidden;
-            position: relative; /* For z-index to work */
         }
         .swiper-slide {
             display: flex;
@@ -83,54 +82,27 @@
             justify-content: center;
             align-items: center;
             font-size: 24px;
-            padding: 20px;
+            padding: 5px;
             text-align: center;
-            background: linear-gradient(135deg, #ffffff, #ffffff); /* Fresh and modern gradient */
+            background: #f8f9fa;
             border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             box-sizing: border-box;
             transition: transform 0.3s, box-shadow 0.3s;
-            position: relative;
-            overflow: hidden; /* Hide overflow to apply mask */
-        }
-        .swiper-slide:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.2); /* Overlay effect */
-            border-radius: 12px;
-            z-index: 1;
-            transition: opacity 0.3s;
-        }
-        .swiper-slide:hover:before {
-            opacity: 0;
-        }
-        .swiper-slide-content {
-            position: relative;
-            z-index: 2;
         }
         .swiper-slide:hover {
-            transform: scale(1.2); /* Slightly zoomed effect */
-            box-shadow: 0 12px 24px rgba(0,0,0,0.3);
-        }
-
-        .swiper-slide:hover .middle-content {
-            transform: scale(1.8); /* Slightly larger zoom effect for the middle content */
-            transition: transform 0.8s; /* Smooth transition for the scaling effect */
-   
+            transform: scale(1.5); /* 放大效果 */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
         }
         .top-content {
-            font-family: 'Roboto';
+            font-family: 'Roboto'; /* 使用 Arial 字体 */
             font-size: 16px;
             color: #333;
             margin: 10px 0;
             font-weight: 500;
         }
         .middle-content {
-            font-family: 'Roboto', Century;
+            font-family: 'Roboto', Century; /* 使用 Arial 字体 */
             font-size: 12px;
             color: #00ff00;
             margin: 10px 0;
@@ -139,8 +111,8 @@
         .copyable {
             user-select: text;
             cursor: pointer;
-            color: #00e1fff6;
-          
+            color: #00a2fff6;
+            text-decoration: underline;
             transition: color 0.3s;
             font-family: 'Roboto', Century;
             font-weight: 500;
@@ -196,11 +168,9 @@
                 const slide = document.createElement('div');
                 slide.className = 'swiper-slide';
                 slide.innerHTML = `
-                    <div class="swiper-slide-content">
-                        <div class="top-content">${first}</div>
-                        <div class="top-content">${second}</div>
-                        <div class="middle-content copyable" id="copy-text-${index}">${third}</div>
-                    </div>
+                    <div class="top-content">${first}</div>
+                    <div class="top-content">${second}</div>
+                    <div class="middle-content copyable" id="copy-text-${index}">${third}</div>
                 `;
                 slidesContainer.appendChild(slide);
 
@@ -218,9 +188,17 @@
                 },
                 loop: true,
                 speed: 600,
-                direction: 'vertical', // 垂直滑动
-                slidesPerView: 1,
+                effect: 'coverflow', // 使用 coverflow 效果
+                slidesPerView: 1.8, // 显示三个滑块
+                centeredSlides: true,
                 spaceBetween: 30,
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 0,
+                    depth: 200,
+                    modifier: 5,
+                    slideShadows: false,
+                },
             });
 
             document.querySelectorAll('.sidebar a').forEach(link => {
@@ -280,18 +258,18 @@
             }
         }
 
-        let touchStartY = 0;
-        let touchEndY = 0;
+        let touchStartX = 0;
+        let touchEndX = 0;
         let isTouching = false;
 
         document.addEventListener('touchstart', (event) => {
-            touchStartY = event.changedTouches[0].screenY;
+            touchStartX = event.changedTouches[0].screenX;
             isTouching = true;
         });
 
         document.addEventListener('touchmove', (event) => {
-            touchEndY = event.changedTouches[0].screenY;
-            const touchDiff = touchEndY - touchStartY;
+            touchEndX = event.changedTouches[0].screenX;
+            const touchDiff = touchEndX - touchStartX;
             if (touchDiff > 50) {
                 toggleSidebarVisibility(true); // 显示侧边栏
             } else if (touchDiff < -50) {
