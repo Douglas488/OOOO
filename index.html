@@ -34,6 +34,10 @@
             margin-right: 10px;
             box-sizing: border-box;
         }
+
+        
+
+
         button {
             padding: 10px 20px;
             background-color: #28a745;
@@ -98,6 +102,69 @@
         #login-form {
             display: none;
             margin-bottom: 20px;
+        }
+
+
+        .product-card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        .product-card .card-header {
+            padding: 15px;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+
+        .product-card .card-body {
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        .product-card .card-footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f8f9fa;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .back-button {
+            display: block;
+            margin: 20px auto; /* 居中显示 */
+            padding: 15px 30px; /* 调整按钮大小 */
+            font-size: 18px; /* 增大字体 */
+            background-color: #007bff; /* 蓝色背景 */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增加阴影 */
+            transition: transform 0.2s, background-color 0.2s; /* 增加交互效果 */
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* 更深的蓝色 */
+            transform: scale(1.05); /* 鼠标悬停时放大 */
         }
     </style>
 </head>
@@ -227,45 +294,98 @@
             }
         }
 
-        function displayImages(product) {
-            const resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = '';
+let lastSearchQuery = ''; // 保存上次的搜索关键词
+let shelfLocations = {}; // 用来存储 SKU 和 货架位的对应关系
 
-            const productId = product["产品 ID"];
-            const productTitle = product["产品标题"];
-            const sku = product.SKU;
-            const chineseName = product["中文名"];
+// 假设 products1.json 文件已经加载到 productsData 变量中
+fetch('products1.json')
+    .then(response => response.json())
+    .then(data => {
+        // 将数据存入 shelfLocations 对象中
+        data.forEach(item => {
+            // 如果货架位为 null，则存储 "Sem"
+            shelfLocations[item.SKU] = item["Estante"] ? item["货Estante"] : "Sem";
+        });
+    });
 
-            const idElement = document.createElement('p');
-            idElement.textContent = `ID: ${productId}`;
-            resultsDiv.appendChild(idElement);
+    function displayImages(product) {
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';
+
+    const backButton = document.createElement('button');
+    backButton.textContent = 'Voltar';
+    backButton.classList.add('back-button');
+    backButton.onclick = () => restoreSearchResults();
+    resultsDiv.appendChild(backButton);
+
+    const cardDiv = document.createElement('div');
+    cardDiv.classList.add('product-card');
+
+    const productId = product["产品 ID"];
+    const productTitle = product["产品标题"];
+    const sku = product.SKU;
+    const chineseName = product["中文名"];
+    const shelfLocation = shelfLocations[sku]; // 获取货架位
+
+    // 创建产品信息卡片
+    const cardContent = `
+        <div class="card-header">
+            <h3>${productTitle}</h3>
+            <p><strong>SKU:</strong> ${sku}</p>
+            <p><strong>中文名:</strong> ${chineseName}</p>
+        </div>
+        <div class="card-body">
+            <p><strong>产品 ID:</strong> ${productId}</p>
+            <p><strong>Estante:</strong> ${shelfLocation}</p>
+        </div>
+        <div class="card-footer">
+            <img src="${product['产品图1']}" alt="${productTitle}" />
+        </div>
+    `;
+
+    cardDiv.innerHTML = cardContent;
+    resultsDiv.appendChild(cardDiv);
+}
+
+function restoreSearchResults() {
+    const resultsDiv = document.getElementById('results');
+    const noResultDiv = document.getElementById('no-result');
+    resultsDiv.innerHTML = '';
+    noResultDiv.innerHTML = '';
+
+    if (lastSearchResults.length > 0) {
+        lastSearchResults.forEach(product => {
+            const productInfo = document.createElement('div');
+            productInfo.classList.add('product-info');
+
+            const imgElement = document.createElement('img');
+            const firstImageUrl = product["产品图1"] || product["变种图1"];
+            imgElement.src = firstImageUrl || 'default-thumbnail.png';
+            imgElement.alt = `Image for ${product["产品标题"]}`;
+            productInfo.appendChild(imgElement);
+
+            const detailsDiv = document.createElement('div');
+            detailsDiv.classList.add('product-details');
 
             const titleElement = document.createElement('p');
-            titleElement.textContent = `Título: ${productTitle}`;
-            resultsDiv.appendChild(titleElement);
+            titleElement.textContent = `Título: ${product["产品标题"]}`;
+            detailsDiv.appendChild(titleElement);
 
-            const skuElement = document.createElement('h3');
-            skuElement.textContent = `SKU: ${sku}`;
-            resultsDiv.appendChild(skuElement);
+            const skuElement = document.createElement('h2');
+            skuElement.textContent = `SKU: ${product.SKU}`;
+            skuElement.style.color = 'blue';
+            detailsDiv.appendChild(skuElement);
 
-            const chineseNameElement = document.createElement('p');
-            chineseNameElement.textContent = `中文名: ${chineseName}`;
-            resultsDiv.appendChild(chineseNameElement);
+            productInfo.appendChild(detailsDiv);
+            productInfo.onclick = () => displayImages(product);
 
-            const imagesDiv = document.createElement('div');
-            imagesDiv.classList.add('images');
-            
-            for (let i = 1; i <= 12; i++) {
-                const imageUrl = product[`产品图${i}`] || product[`变种图${i}`];
-                if (imageUrl) {
-                    const imgElement = document.createElement('img');
-                    imgElement.src = imageUrl;
-                    imagesDiv.appendChild(imgElement);
-                }
-            }
+            resultsDiv.appendChild(productInfo);
+        });
+    } else {
+        noResultDiv.textContent = 'Nenhum resultado correspondente encontrado未找到匹配结果。';
+    }
+}
 
-            resultsDiv.appendChild(imagesDiv);
-        }
 
         checkLogin();
     </script>
