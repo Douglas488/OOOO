@@ -74,7 +74,7 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .product-info img {
-            height: 100px;
+            height: 60px;
             border-radius: 8px;
             object-fit: cover;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -179,13 +179,45 @@
         }
 
         .card-footer img {
-            max-width: 100%;
+            max-width: 30%;
             height: auto;
             margin: 10px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             border: 1px solid #ddd;
             transition: transform 0.3s ease;
+        }
+        /* 添加移动端的特殊处理 */
+        @media (max-width: 300px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .card-body {
+                padding: 15px;
+            }
+            
+            .card-body p {
+                font-size: 14px;
+            }
+            
+            .card-header h2 {
+                font-size: 20px;
+            }
+
+            .product-info {
+                flex-direction: column;
+            }
+
+            .product-info img {
+                width: 80px;
+                height: 80px;
+                margin: 0 auto;
+            }
+
+            .card-footer img {
+                max-width: 50%;
+            }
         }
 
         .card-footer img:hover {
@@ -231,12 +263,18 @@
             }
 
             .product-info {
-                flex-direction: column;
+                flex-direction: row;  /* 改为水平布局 */
+                align-items: center;  /* 垂直居中对齐 */
             }
 
             .product-info img {
-                width: 100%;
-                height: auto;
+                width: 80px;
+                height: 80px;
+                margin: 0;  /* 移除自动边距 */
+            }
+
+            .card-footer img {
+                max-width: 80%;
             }
         }
     </style>
