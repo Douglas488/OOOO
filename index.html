@@ -17,7 +17,7 @@
         }
         .container {
             width: 100%;
-            max-width: 600px;
+            max-width: 800px;
             padding: 20px;
             box-sizing: border-box;
             background: #fff;
@@ -34,10 +34,6 @@
             margin-right: 10px;
             box-sizing: border-box;
         }
-
-        
-
-
         button {
             padding: 10px 20px;
             background-color: #28a745;
@@ -65,7 +61,7 @@
             cursor: pointer;
             display: flex;
             align-items: flex-start;
-            gap: 10px; /* Gap between image and details */
+            gap: 10px;
         }
         .product-info img {
             height: 80px;
@@ -75,8 +71,8 @@
         .product-details {
             display: flex;
             flex-direction: column;
-            padding-left: 10px; /* Adjust to ensure content is not too close to image */
-            flex: 1; /* Takes remaining space */
+            padding-left: 10px;
+            flex: 1;
         }
         .product-details h3, .product-details p {
             margin: 0;
@@ -104,12 +100,12 @@
             margin-bottom: 20px;
         }
 
-
         .product-card {
-            width: 300px;
+            width: 90%;
+            max-width: 800px;
             border: 1px solid #ddd;
             border-radius: 10px;
-            margin: 20px;
+            margin: 20px auto;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             background-color: #fff;
@@ -132,39 +128,43 @@
             background-color: #f8f9fa;
         }
 
-        .product-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
+        .image-container {
+            margin: 15px 0;
+            text-align: center;
         }
 
+        .image-container p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 14px;
+        }
 
-
-
-
-
-
-
-
-
+        .card-footer img {
+            max-width: 100%;
+            height: auto;
+            margin: 5px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+        }
 
         .back-button {
             display: block;
-            margin: 20px auto; /* 居中显示 */
-            padding: 15px 30px; /* 调整按钮大小 */
-            font-size: 18px; /* 增大字体 */
-            background-color: #007bff; /* 蓝色背景 */
+            margin: 20px auto;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #007bff;
             color: white;
             border: none;
             border-radius: 8px;
             cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 增加阴影 */
-            transition: transform 0.2s, background-color 0.2s; /* 增加交互效果 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, background-color 0.2s;
         }
 
         .back-button:hover {
-            background-color: #0056b3; /* 更深的蓝色 */
-            transform: scale(1.05); /* 鼠标悬停时放大 */
+            background-color: #0056b3;
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -192,6 +192,9 @@
         const validUsername = "admin";
         const validPassword = "password123";
         const expiryDays = 7;
+        let lastSearchResults = [];
+        let data = [];
+        let shelfLocations = {};
 
         function getExpiryDate() {
             const now = new Date();
@@ -223,10 +226,11 @@
 
         function clearInput() {
             document.getElementById('search-input').value = '';
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('no-result').innerHTML = '';
         }
 
-        // Load JSON data
-        let data = [];
+        // 加载产品数据
         fetch('products.json')
             .then(response => response.json())
             .then(jsonData => {
@@ -235,12 +239,28 @@
             })
             .catch(error => console.error('Error loading JSON data:', error));
 
+        // 加载货架位数据
+        fetch('products1.json')
+            .then(response => response.json())
+            .then(data => {
+                data.forEach(item => {
+                    shelfLocations[item.SKU] = item["Estante"] || item["Estante"] || "Sem Estante";
+                });
+                console.log('Shelf locations loaded:', shelfLocations);
+            })
+            .catch(error => console.error('Error loading shelf locations:', error));
+
         function searchItems() {
             const query = document.getElementById('search-input').value.trim().toLowerCase();
             const resultsDiv = document.getElementById('results');
             const noResultDiv = document.getElementById('no-result');
             resultsDiv.innerHTML = '';
             noResultDiv.innerHTML = '';
+
+            if (!query) {
+                noResultDiv.textContent = '请输入搜索关键词';
+                return;
+            }
 
             const matchingProducts = data.filter(item => 
                 item.SKU.toLowerCase().includes(query) || 
@@ -249,39 +269,43 @@
                 item["中文名"].toLowerCase().includes(query)
             );
 
+            lastSearchResults = matchingProducts;
+
             if (matchingProducts.length > 0) {
                 matchingProducts.forEach(product => {
-                    const productTitle = product["产品标题"];
-                    const sku = product.SKU;
-                    const productId = product["产品 ID"];
-                    const chineseName = product["中文名"];
                     const productInfo = document.createElement('div');
                     productInfo.classList.add('product-info');
 
                     const imgElement = document.createElement('img');
                     const firstImageUrl = product["产品图1"] || product["变种图1"];
-                    imgElement.src = firstImageUrl || 'default-thumbnail.png'; // Fallback image if no product image is available
-                    imgElement.alt = `Image for ${productTitle}`;
+                    imgElement.src = firstImageUrl || 'default-thumbnail.png';
+                    imgElement.alt = `Image for ${product["产品标题"]}`;
                     productInfo.appendChild(imgElement);
 
                     const detailsDiv = document.createElement('div');
                     detailsDiv.classList.add('product-details');
 
                     const idElement = document.createElement('p');
-                    idElement.textContent = `ID: ${productId}`;
+                    idElement.textContent = `ID: ${product["产品 ID"]}`;
                     detailsDiv.appendChild(idElement);
 
                     const titleElement = document.createElement('p');
-                    titleElement.textContent = `Título: ${productTitle}`;
+                    titleElement.textContent = `Título: ${product["产品标题"]}`;
                     detailsDiv.appendChild(titleElement);
 
                     const skuElement = document.createElement('h2');
-                    skuElement.textContent = `SKU: ${sku}`;
-                    skuElement.style.color = 'blue'; // Set text color to blue
+                    skuElement.textContent = `SKU: ${product.SKU}`;
+                    skuElement.style.color = 'blue';
                     detailsDiv.appendChild(skuElement);
 
+                    // 添加货架位信息
+                    const shelfElement = document.createElement('p');
+                    shelfElement.textContent = `Estante: ${shelfLocations[product.SKU] || "Sem Estante"}`;
+                    shelfElement.style.color = '#e67e22';
+                    detailsDiv.appendChild(shelfElement);
+
                     const chineseNameElement = document.createElement('p');
-                    chineseNameElement.textContent = `中文名: ${chineseName}`;
+                    chineseNameElement.textContent = `中文名: ${product["中文名"]}`;
                     detailsDiv.appendChild(chineseNameElement);
 
                     productInfo.appendChild(detailsDiv);
@@ -290,102 +314,120 @@
                     resultsDiv.appendChild(productInfo);
                 });
             } else {
-                noResultDiv.textContent = 'Nenhum resultado correspondente encontrado未找到匹配结果。';
+                noResultDiv.textContent = '未找到匹配结果';
             }
         }
 
-let lastSearchQuery = ''; // 保存上次的搜索关键词
-let shelfLocations = {}; // 用来存储 SKU 和 货架位的对应关系
+        function restoreSearchResults() {
+            const resultsDiv = document.getElementById('results');
+            const noResultDiv = document.getElementById('no-result');
+            resultsDiv.innerHTML = '';
+            noResultDiv.innerHTML = '';
 
-// 假设 products1.json 文件已经加载到 productsData 变量中
-fetch('products1.json')
-    .then(response => response.json())
-    .then(data => {
-        // 将数据存入 shelfLocations 对象中
-        data.forEach(item => {
-            // 如果货架位为 null，则存储 "Sem"
-            shelfLocations[item.SKU] = item["Estante"] ? item["货Estante"] : "Sem";
-        });
-    });
+            if (lastSearchResults.length > 0) {
+                lastSearchResults.forEach(product => {
+                    const productInfo = document.createElement('div');
+                    productInfo.classList.add('product-info');
+
+                    const imgElement = document.createElement('img');
+                    const firstImageUrl = product["产品图1"] || product["变种图1"];
+                    imgElement.src = firstImageUrl || 'default-thumbnail.png';
+                    imgElement.alt = `Image for ${product["产品标题"]}`;
+                    productInfo.appendChild(imgElement);
+
+                    const detailsDiv = document.createElement('div');
+                    detailsDiv.classList.add('product-details');
+
+                    const titleElement = document.createElement('p');
+                    titleElement.textContent = `Título: ${product["产品标题"]}`;
+                    detailsDiv.appendChild(titleElement);
+
+                    const skuElement = document.createElement('h2');
+                    skuElement.textContent = `SKU: ${product.SKU}`;
+                    skuElement.style.color = 'blue';
+                    detailsDiv.appendChild(skuElement);
+
+                    // 添加货架位信息
+                    const shelfElement = document.createElement('p');
+                    shelfElement.textContent = `Estante: ${shelfLocations[product.SKU] || "Sem Estante"}`;
+                    shelfElement.style.color = '#e67e22';
+                    detailsDiv.appendChild(shelfElement);
+
+                    productInfo.appendChild(detailsDiv);
+                    productInfo.onclick = () => displayImages(product);
+
+                    resultsDiv.appendChild(productInfo);
+                });
+            } else {
+                noResultDiv.textContent = '未找到匹配结果';
+            }
+        }
 
     function displayImages(product) {
-    const resultsDiv = document.getElementById('results');
-    resultsDiv.innerHTML = '';
+    const container = document.querySelector('.container');
+    const originalContent = container.innerHTML;
 
+    // 创建返回按钮并放在最上方
     const backButton = document.createElement('button');
-    backButton.textContent = 'Voltar';
     backButton.classList.add('back-button');
-    backButton.onclick = () => restoreSearchResults();
-    resultsDiv.appendChild(backButton);
+    backButton.textContent = 'Voltar';
+    backButton.style.marginBottom = '20px'; // 添加底部间距
+    backButton.onclick = () => {
+        container.innerHTML = originalContent;
+        restoreSearchResults();
+        checkLogin();
+    };
 
-    const cardDiv = document.createElement('div');
-    cardDiv.classList.add('product-card');
+    const productCard = document.createElement('div');
+    productCard.classList.add('product-card');
 
-    const productId = product["产品 ID"];
-    const productTitle = product["产品标题"];
-    const sku = product.SKU;
-    const chineseName = product["中文名"];
-    const shelfLocation = shelfLocations[sku]; // 获取货架位
+    const cardHeader = document.createElement('div');
+    cardHeader.classList.add('card-header');
+    cardHeader.innerHTML = `<h2>${product["产品标题"]}</h2>`;
+    productCard.appendChild(cardHeader);
 
-    // 创建产品信息卡片
-    const cardContent = `
-        <div class="card-header">
-            <h3>${productTitle}</h3>
-            <p><strong>SKU:</strong> ${sku}</p>
-            <p><strong>中文名:</strong> ${chineseName}</p>
-        </div>
-        <div class="card-body">
-            <p><strong>产品 ID:</strong> ${productId}</p>
-            <p><strong>Estante:</strong> ${shelfLocation}</p>
-        </div>
-        <div class="card-footer">
-            <img src="${product['产品图1']}" alt="${productTitle}" />
-        </div>
+    const cardBody = document.createElement('div');
+    cardBody.classList.add('card-body');
+    cardBody.style.textAlign = 'center'; // 添加居中样式
+    cardBody.innerHTML = `
+        <p><strong>SKU:</strong> ${product.SKU}</p>
+        <p><strong>产品 ID:</strong> ${product["产品 ID"]}</p>
+        <p><strong>中文名:</strong> ${product["中文名"]}</p>
+        <p><strong>Estante:</strong> <span style="color: #e67e22">${shelfLocations[product.SKU] || "Sem Estante"}</span></p>
     `;
+    productCard.appendChild(cardBody);
 
-    cardDiv.innerHTML = cardContent;
-    resultsDiv.appendChild(cardDiv);
-}
+    const cardFooter = document.createElement('div');
+    cardFooter.classList.add('card-footer');
 
-function restoreSearchResults() {
-    const resultsDiv = document.getElementById('results');
-    const noResultDiv = document.getElementById('no-result');
-    resultsDiv.innerHTML = '';
-    noResultDiv.innerHTML = '';
-
-    if (lastSearchResults.length > 0) {
-        lastSearchResults.forEach(product => {
-            const productInfo = document.createElement('div');
-            productInfo.classList.add('product-info');
-
-            const imgElement = document.createElement('img');
-            const firstImageUrl = product["产品图1"] || product["变种图1"];
-            imgElement.src = firstImageUrl || 'default-thumbnail.png';
-            imgElement.alt = `Image for ${product["产品标题"]}`;
-            productInfo.appendChild(imgElement);
-
-            const detailsDiv = document.createElement('div');
-            detailsDiv.classList.add('product-details');
-
-            const titleElement = document.createElement('p');
-            titleElement.textContent = `Título: ${product["产品标题"]}`;
-            detailsDiv.appendChild(titleElement);
-
-            const skuElement = document.createElement('h2');
-            skuElement.textContent = `SKU: ${product.SKU}`;
-            skuElement.style.color = 'blue';
-            detailsDiv.appendChild(skuElement);
-
-            productInfo.appendChild(detailsDiv);
-            productInfo.onclick = () => displayImages(product);
-
-            resultsDiv.appendChild(productInfo);
-        });
-    } else {
-        noResultDiv.textContent = 'Nenhum resultado correspondente encontrado未找到匹配结果。';
+    // 添加所有产品图片
+    for (let i = 1; i <= 10; i++) {
+        const imageKey = `产品图${i}`;
+        if (product[imageKey]) {
+            const img = document.createElement('img');
+            img.src = product[imageKey];
+            img.alt = `Product Image ${i}`;
+            cardFooter.appendChild(img);
+        }
     }
-}
 
+    // 添加所有变种图片
+    for (let i = 1; i <= 10; i++) {
+        const imageKey = `变种图${i}`;
+        if (product[imageKey]) {
+            const img = document.createElement('img');
+            img.src = product[imageKey];
+            img.alt = `Variant Image ${i}`;
+            cardFooter.appendChild(img);
+        }
+    }
+
+    productCard.appendChild(cardFooter);
+
+    container.innerHTML = '';
+    container.appendChild(backButton);     // 先添加返回按钮
+    container.appendChild(productCard);    // 再添加产品卡片
+}   
 
         checkLogin();
     </script>
