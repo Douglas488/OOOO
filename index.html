@@ -33,6 +33,9 @@
             padding: 10px;
             margin-right: 10px;
             box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
         }
         button {
             padding: 10px 20px;
@@ -41,9 +44,11 @@
             border: none;
             cursor: pointer;
             border-radius: 5px;
+            transition: all 0.3s ease;
         }
         button:hover {
             background-color: #218838;
+            transform: translateY(-2px);
         }
         .clear-button {
             background-color: #dc3545;
@@ -55,18 +60,24 @@
         .product-info {
             margin-top: 20px;
             border: 1px solid #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
             cursor: pointer;
             display: flex;
             align-items: flex-start;
-            gap: 10px;
+            gap: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product-info:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .product-info img {
-            height: 80px;
-            border-radius: 5px;
+            height: 100px;
+            border-radius: 8px;
             object-fit: cover;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .product-details {
             display: flex;
@@ -75,7 +86,7 @@
             flex: 1;
         }
         .product-details h3, .product-details p {
-            margin: 0;
+            margin: 5px 0;
             padding: 5px 0;
         }
         .images {
@@ -85,18 +96,26 @@
         .images img {
             max-width: 100%;
             height: auto;
-            margin-top: 10px;
-            border-radius: 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 10px 0;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .images img:hover {
+            transform: scale(1.05);
         }
         .no-result {
-            color: red;
-            margin-top: 10px;
+            color: #dc3545;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 16px;
         }
         #login-form {
             display: none;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #login-form h2 {
+            color: #2c3e50;
             margin-bottom: 20px;
         }
 
@@ -104,71 +123,125 @@
             width: 90%;
             max-width: 800px;
             border: 1px solid #ddd;
-            border-radius: 10px;
+            border-radius: 12px;
             margin: 20px auto;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             overflow: hidden;
             background-color: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
         }
 
         .product-card .card-header {
-            padding: 15px;
+            padding: 20px;
             background-color: #f8f9fa;
             text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .product-card .card-header h2 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin: 0;
         }
 
         .product-card .card-body {
-            padding: 15px;
-            font-size: 14px;
+            padding: 25px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .card-body p {
+            margin: 15px 0;
+            color: #34495e;
+        }
+
+        .card-body strong {
+            color: #2c3e50;
+            font-size: 17px;
+        }
+
+        .card-body p:nth-child(1) {
+            font-size: 20px;
+            color: #3498db;
+            font-weight: bold;
         }
 
         .product-card .card-footer {
             text-align: center;
-            padding: 15px;
+            padding: 20px;
             background-color: #f8f9fa;
-        }
-
-        .image-container {
-            margin: 15px 0;
-            text-align: center;
-        }
-
-        .image-container p {
-            margin: 5px 0;
-            color: #666;
-            font-size: 14px;
+            border-top: 1px solid #eee;
         }
 
         .card-footer img {
             max-width: 100%;
             height: auto;
-            margin: 5px 0;
-            border-radius: 5px;
+            margin: 10px;
+            border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             border: 1px solid #ddd;
+            transition: transform 0.3s ease;
+        }
+
+        .card-footer img:hover {
+            transform: scale(1.05);
         }
 
         .back-button {
             display: block;
             margin: 20px auto;
-            padding: 15px 30px;
+            padding: 12px 25px;
             font-size: 18px;
-            background-color: #007bff;
+            background: linear-gradient(145deg, #007bff, #0056b3);
             color: white;
             border: none;
             border-radius: 8px;
             cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            font-weight: 600;
+            letter-spacing: 0.5px;
         }
 
         .back-button:hover {
-            background-color: #0056b3;
-            transform: scale(1.05);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,123,255,0.4);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .card-body {
+                padding: 15px;
+            }
+            
+            .card-body p {
+                font-size: 14px;
+            }
+            
+            .card-header h2 {
+                font-size: 20px;
+            }
+
+            .product-info {
+                flex-direction: column;
+            }
+
+            .product-info img {
+                width: 100%;
+                height: auto;
+            }
         }
     </style>
 </head>
-<body>
+<body></body>
     <div class="container">
         <div id="login-form">
             <h2>Login</h2>
@@ -244,7 +317,7 @@
             .then(response => response.json())
             .then(data => {
                 data.forEach(item => {
-                    shelfLocations[item.SKU] = item["Estante"] || item["Estante"] || "Sem Estante";
+                    shelfLocations[item.SKU] = item["Estante"] || item["货架位"] || "未分配";
                 });
                 console.log('Shelf locations loaded:', shelfLocations);
             })
@@ -290,7 +363,7 @@
                     detailsDiv.appendChild(idElement);
 
                     const titleElement = document.createElement('p');
-                    titleElement.textContent = `Título: ${product["产品标题"]}`;
+                    titleElement.textContent = `标题: ${product["产品标题"]}`;
                     detailsDiv.appendChild(titleElement);
 
                     const skuElement = document.createElement('h2');
@@ -300,7 +373,7 @@
 
                     // 添加货架位信息
                     const shelfElement = document.createElement('p');
-                    shelfElement.textContent = `Estante: ${shelfLocations[product.SKU] || "Sem Estante"}`;
+                    shelfElement.textContent = `货架位: ${shelfLocations[product.SKU] || "未分配"}`;
                     shelfElement.style.color = '#e67e22';
                     detailsDiv.appendChild(shelfElement);
 
@@ -349,7 +422,7 @@
 
                     // 添加货架位信息
                     const shelfElement = document.createElement('p');
-                    shelfElement.textContent = `Estante: ${shelfLocations[product.SKU] || "Sem Estante"}`;
+                    shelfElement.textContent = `货架位: ${shelfLocations[product.SKU] || "Sem Estante"}`;
                     shelfElement.style.color = '#e67e22';
                     detailsDiv.appendChild(shelfElement);
 
@@ -363,71 +436,71 @@
             }
         }
 
-    function displayImages(product) {
-    const container = document.querySelector('.container');
-    const originalContent = container.innerHTML;
+        function displayImages(product) {
+            const container = document.querySelector('.container');
+            const originalContent = container.innerHTML;
 
-    // 创建返回按钮并放在最上方
-    const backButton = document.createElement('button');
-    backButton.classList.add('back-button');
-    backButton.textContent = 'Voltar';
-    backButton.style.marginBottom = '20px'; // 添加底部间距
-    backButton.onclick = () => {
-        container.innerHTML = originalContent;
-        restoreSearchResults();
-        checkLogin();
-    };
+            // 创建返回按钮并放在最上方
+            const backButton = document.createElement('button');
+            backButton.classList.add('back-button');
+            backButton.textContent = 'Voltar';
+            backButton.style.marginBottom = '20px';
+            backButton.onclick = () => {
+                container.innerHTML = originalContent;
+                restoreSearchResults();
+                checkLogin();
+            };
 
-    const productCard = document.createElement('div');
-    productCard.classList.add('product-card');
+            const productCard = document.createElement('div');
+            productCard.classList.add('product-card');
 
-    const cardHeader = document.createElement('div');
-    cardHeader.classList.add('card-header');
-    cardHeader.innerHTML = `<h2>${product["产品标题"]}</h2>`;
-    productCard.appendChild(cardHeader);
+            const cardHeader = document.createElement('div');
+            cardHeader.classList.add('card-header');
+            cardHeader.innerHTML = `<h2>${product["产品标题"]}</h2>`;
+            productCard.appendChild(cardHeader);
 
-    const cardBody = document.createElement('div');
-    cardBody.classList.add('card-body');
-    cardBody.style.textAlign = 'center'; // 添加居中样式
-    cardBody.innerHTML = `
-        <p><strong>SKU:</strong> ${product.SKU}</p>
-        <p><strong>产品 ID:</strong> ${product["产品 ID"]}</p>
-        <p><strong>中文名:</strong> ${product["中文名"]}</p>
-        <p><strong>Estante:</strong> <span style="color: #e67e22">${shelfLocations[product.SKU] || "Sem Estante"}</span></p>
-    `;
-    productCard.appendChild(cardBody);
+            const cardBody = document.createElement('div');
+            cardBody.classList.add('card-body');
+            cardBody.style.textAlign = 'center';
+            cardBody.innerHTML = `
+                <p><strong>SKU:</strong> ${product.SKU}</p>
+                <p><strong>产品 ID:</strong> ${product["产品 ID"]}</p>
+                <p><strong>中文名:</strong> ${product["中文名"]}</p>
+                <p><strong>Estante:</strong> <span style="color: #e67e22">${shelfLocations[product.SKU] || "Sem Estante"}</span></p>
+            `;
+            productCard.appendChild(cardBody);
 
-    const cardFooter = document.createElement('div');
-    cardFooter.classList.add('card-footer');
+            const cardFooter = document.createElement('div');
+            cardFooter.classList.add('card-footer');
 
-    // 添加所有产品图片
-    for (let i = 1; i <= 10; i++) {
-        const imageKey = `产品图${i}`;
-        if (product[imageKey]) {
-            const img = document.createElement('img');
-            img.src = product[imageKey];
-            img.alt = `Product Image ${i}`;
-            cardFooter.appendChild(img);
+            // 添加所有产品图片
+            for (let i = 1; i <= 10; i++) {
+                const imageKey = `产品图${i}`;
+                if (product[imageKey]) {
+                    const img = document.createElement('img');
+                    img.src = product[imageKey];
+                    img.alt = `Product Image ${i}`;
+                    cardFooter.appendChild(img);
+                }
+            }
+
+            // 添加所有变种图片
+            for (let i = 1; i <= 10; i++) {
+                const imageKey = `变种图${i}`;
+                if (product[imageKey]) {
+                    const img = document.createElement('img');
+                    img.src = product[imageKey];
+                    img.alt = `Variant Image ${i}`;
+                    cardFooter.appendChild(img);
+                }
+            }
+
+            productCard.appendChild(cardFooter);
+
+            container.innerHTML = '';
+            container.appendChild(backButton);
+            container.appendChild(productCard);
         }
-    }
-
-    // 添加所有变种图片
-    for (let i = 1; i <= 10; i++) {
-        const imageKey = `变种图${i}`;
-        if (product[imageKey]) {
-            const img = document.createElement('img');
-            img.src = product[imageKey];
-            img.alt = `Variant Image ${i}`;
-            cardFooter.appendChild(img);
-        }
-    }
-
-    productCard.appendChild(cardFooter);
-
-    container.innerHTML = '';
-    container.appendChild(backButton);     // 先添加返回按钮
-    container.appendChild(productCard);    // 再添加产品卡片
-}   
 
         checkLogin();
     </script>
