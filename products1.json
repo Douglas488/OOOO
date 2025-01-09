@@ -1,5 +1,70 @@
 [
     {
+        "SKU": "A2224-Preto",
+        "标题": "Bolsa De Malha Multifuncional Pendurada De Grande Capacidade(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2223",
+        "标题": "Agente De Revestimento Cristalino Para Vidros De Carro",
+        "货架位": null
+    },
+    {
+        "SKU": "A2226",
+        "标题": "Mochila De Pesca Cilíndrica De Poliéster Com Grande Capacida",
+        "货架位": null
+    },
+    {
+        "SKU": "A2225",
+        "标题": "Bolsa De Primeiros Socorros Vazia Para Emergências Médicas",
+        "货架位": null
+    },
+    {
+        "SKU": "A1780-Marrom",
+        "标题": "Bolsa Social Feminina Reforçada Elegante Academia(Marrom)",
+        "货架位": null
+    },
+    {
+        "SKU": "23062706-Amarelo-Adulto",
+        "标题": "Chapéu De Sol Ultravioleta Adulto E Infantil Caminhada(Amarelo,Adulto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1507-Marrom lobo",
+        "标题": "Pochete Bolsa Mochila Impermeável Para Pesca Novo(Marrom lobo)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1921-Preto",
+        "标题": "Mini Massageador De Corpo Inteiro 10 Velocidades Novo(Preto,110V/220V)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1921-Prateado",
+        "标题": "Mini Massageador De Corpo Inteiro 10 Velocidades Novo(Prateado,110V/220V)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1853-Preto",
+        "标题": "Adesivo Anti-arranhões Para Móveis Para Gatos 200x40cm(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2205-Prateado+Dourado",
+        "标题": "Dispensador De Xarope Para Café Transparente E Funcional(Prateado+Dourado)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2205-Dourado",
+        "标题": "Kit 2 Dispensador Transparente Para Xarope Café E Sabonete(Dourado)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2205-Prateado",
+        "标题": "Kit 2 Dispensador Transparente Para Xarope Café E Sabonete(Prateado)",
+        "货架位": null
+    },
+    {
         "SKU": "A1679-Azul Detalhes-Azul",
         "标题": "Mochila Escolar À Prova D'água Para Astronauta Mochila Masculina E Feminina Para Estudantes De Grande Capacidade(Azul)",
         "货架位": null
@@ -87,7 +152,7 @@
     {
         "SKU": "A1776-3",
         "标题": "Kit Viagem 16pcs Nécessaires Frasco Silicone Shampoo Creme(3)",
-        "货架位": null
+        "货架位": "18"
     },
     {
         "SKU": "A1172-Preto",
@@ -162,16 +227,6 @@
     {
         "SKU": "A2206-Azul-220V",
         "标题": "Estação De Afiação Universal  Afiador De Tesoura Elétrico(Azul,220V)",
-        "货架位": null
-    },
-    {
-        "SKU": "A2205-Dourado",
-        "标题": "Kit 2 Dispensador Transparente Para Xarope Café E Sabonete(Dourado)",
-        "货架位": null
-    },
-    {
-        "SKU": "A2205-Prateado",
-        "标题": "Kit 2 Dispensador Transparente Para Xarope Café E Sabonete(Prateado)",
         "货架位": null
     },
     {
@@ -317,7 +372,7 @@
     {
         "SKU": "A1275-Bege Claro",
         "标题": "Bolsa Feminina Transversal Passeio Casual Média Trabalho(Bege Claro)",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "A1763-M14 Perfurado 50mm",
@@ -842,32 +897,32 @@
     {
         "SKU": "A1565-Verde/Laranja",
         "标题": "Bolsa Stray Kids De Grande Capacidade Pronta Entrega(Verde/Laranja)",
-        "货架位": "014"
+        "货架位": "044"
     },
     {
         "SKU": "A1565-Vermelho/Rosa",
         "标题": "Bolsa Stray Kids De Grande Capacidade Pronta Entrega(Vermelho/Rosa)",
-        "货架位": "014"
+        "货架位": "044"
     },
     {
         "SKU": "A1565-Azul/Rosa",
         "标题": "Bolsa Stray Kids De Grande Capacidade Pronta Entrega(Azul/Rosa)",
-        "货架位": "014"
+        "货架位": "044"
     },
     {
         "SKU": "A1565-Preto / Cinza 03",
         "标题": "Bolsa Stray Kids De Grande Capacidade Pronta Entrega(Preto / Cinza 03)",
-        "货架位": "0018"
+        "货架位": "044"
     },
     {
         "SKU": "A1565-Preto / Cinza 02",
         "标题": "Bolsa Stray Kids De Grande Capacidade Pronta Entrega(Preto / Cinza 02)",
-        "货架位": "014"
+        "货架位": "044"
     },
     {
         "SKU": "A1565-Preto / Cinza 01",
         "标题": "Bolsa Stray Kids De Grande Capacidade Pronta Entrega(Preto / Cinza 01)",
-        "货架位": "014"
+        "货架位": "044"
     },
     {
         "SKU": "A1775-Preto",
@@ -1527,7 +1582,7 @@
     {
         "SKU": "A1097-Cinza escuro-15.6in",
         "标题": "Mochila Executivo Bolsa De Mão Multifuncional Resistente(Cinza-escuro)",
-        "货架位": "14"
+        "货架位": "044"
     },
     {
         "SKU": "A2082",
@@ -2832,7 +2887,7 @@
     {
         "SKU": "A1858-Preto",
         "标题": "Perfume Elétrico Para Carro Caminhão Difusor Aromatizante(Baunilha,Preto)",
-        "货架位": null
+        "货架位": "18"
     },
     {
         "SKU": "A1858-Prateado",
@@ -3477,7 +3532,7 @@
     {
         "SKU": "A1925",
         "标题": "Caneta Clareadora Limpa Para Cuidados Os Dentes P/ Cachorro",
-        "货架位": "19"
+        "货架位": "015"
     },
     {
         "SKU": "A1924",
@@ -3502,11 +3557,6 @@
     {
         "SKU": "A1922",
         "标题": "Microfone Lapela Sem Fio Profissional Celular Usb-c",
-        "货架位": null
-    },
-    {
-        "SKU": "A1921",
-        "标题": "Mini Massageador De Corpo Inteiro 10 Velocidades Novo",
         "货架位": null
     },
     {
@@ -3852,7 +3902,7 @@
     {
         "SKU": "A1914",
         "标题": "Kit 20 Peças Jogo De Xadrez Magnético Mesa Dama Infantil",
-        "货架位": null
+        "货架位": "14"
     },
     {
         "SKU": "A1901",
@@ -4022,22 +4072,22 @@
     {
         "SKU": "A1432-Dinossauro Azul",
         "标题": "Almofada De Dormir De Carro, Travesseiro De Viagem Para Cria(Dinossauro Azul)",
-        "货架位": "21"
+        "货架位": "044"
     },
     {
         "SKU": "A1432-Tigre Azul escuro",
         "标题": "Almofada De Dormir De Carro, Travesseiro De Viagem Para Cria(Tigre Azul escuro)",
-        "货架位": "21"
+        "货架位": "044"
     },
     {
         "SKU": "A1432-Coelho Rosa",
         "标题": "Almofada De Dormir De Carro, Travesseiro De Viagem Para Cria(Coelho Rosa)",
-        "货架位": "21"
+        "货架位": "044"
     },
     {
         "SKU": "A1432-Girassol Bege",
         "标题": "Almofada De Dormir De Carro, Travesseiro De Viagem Para Cria(Girassol Bege)",
-        "货架位": "21"
+        "货架位": "044"
     },
     {
         "SKU": "A1859-Cafe-XG/XXL",
@@ -4162,12 +4212,12 @@
     {
         "SKU": "A1522-Cinza-escuro",
         "标题": "Bolsa Grande Feminina Transversal Moderna Luxo Com Carteira(Cinza-escuro)",
-        "货架位": "02"
+        "货架位": "0013"
     },
     {
         "SKU": "A1522-Azul-escuro",
         "标题": "Bolsa Grande Feminina Transversal Moderna Luxo Com Carteira(Azul-escuro)",
-        "货架位": null
+        "货架位": "0013"
     },
     {
         "SKU": "A1577-Vermelho",
@@ -5077,7 +5127,7 @@
     {
         "SKU": "A1275-Azul-escuro",
         "标题": "Bolsa Feminina Transversal Passeio Casual Média Trabalho(Azul-escuro)",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "A1783-Preto",
@@ -5387,7 +5437,7 @@
     {
         "SKU": "A1755",
         "标题": "Suporte De Celular Para Moto Guidão Bicicleta Bike Estável",
-        "货架位": null
+        "货架位": "14"
     },
     {
         "SKU": "A1823",
@@ -5492,12 +5542,12 @@
     {
         "SKU": "A1776-2",
         "标题": "Kit Viagem 16pcs Nécessaires Frasco Silicone Shampoo Creme(2)",
-        "货架位": null
+        "货架位": "18"
     },
     {
         "SKU": "A1776-1",
         "标题": "Kit Viagem 16pcs Nécessaires Frasco Silicone Shampoo Creme(1)",
-        "货架位": null
+        "货架位": "18"
     },
     {
         "SKU": "A1778-Cinza",
@@ -5512,12 +5562,12 @@
     {
         "SKU": "A1777-Bege",
         "标题": "Mochila Ombro Feminina Altíssima Qualidade Maravilhosa(Bege)",
-        "货架位": "021"
+        "货架位": "44"
     },
     {
         "SKU": "A1777-Preto",
         "标题": "Mochila Ombro Feminina Altíssima Qualidade Maravilhosa(Preto)",
-        "货架位": "021"
+        "货架位": "44"
     },
     {
         "SKU": "A1754-Preto",
@@ -5552,12 +5602,12 @@
     {
         "SKU": "A1752-Dourado",
         "标题": "Kit 877 Pcs Bijuterias Para Fazer Jóia Diy Com Alicate Pinça(Dourado)",
-        "货架位": null
+        "货架位": "21"
     },
     {
         "SKU": "A1752-Prateado",
         "标题": "Kit 877 Pcs Bijuterias Para Fazer Jóia Diy Com Alicate Pinça(Prateado)",
-        "货架位": null
+        "货架位": "21"
     },
     {
         "SKU": "A1756",
@@ -5672,7 +5722,7 @@
     {
         "SKU": "A1708",
         "标题": "Vara De Pesca Telescópica Dobrável Portátil Com Linha",
-        "货架位": null
+        "货架位": "18"
     },
     {
         "SKU": "A1738-Cafe",
@@ -5737,7 +5787,7 @@
     {
         "SKU": "A1744",
         "标题": "Luz Led Usb C/ Filtro Colorido P/ Gravar Vídeo Foto C/ Tripé",
-        "货架位": "00000003"
+        "货架位": "027"
     },
     {
         "SKU": "A1747",
@@ -6047,7 +6097,7 @@
     {
         "SKU": "A1688",
         "标题": "1 Pces Máscara + 1*50ml Vc Spray Colágeno Facial Cuidados",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "CP0242-4GB/32GB",
@@ -6092,7 +6142,7 @@
     {
         "SKU": "A1158-Vermelho escuro",
         "标题": "Caixa Umidora Para Até 35 Charutos Higrômetro Externo(Vermelho escuro)",
-        "货架位": "32"
+        "货架位": "027"
     },
     {
         "SKU": "A1661-220v",
@@ -6277,32 +6327,32 @@
     {
         "SKU": "A1677-Branco-XGG/XXXL",
         "标题": "Camisa Polo Masculina Com Estampa De Letras Lapela E Botões(Branco,XGG/XXXL)",
-        "货架位": "014"
+        "货架位": "42"
     },
     {
         "SKU": "A1677-Branco-XG/XXL",
         "标题": "Camisa Polo Masculina Com Estampa De Letras Lapela E Botões(Branco,XG/XXL)",
-        "货架位": "014"
+        "货架位": "42"
     },
     {
         "SKU": "A1677-Branco-GG/XL",
         "标题": "Camisa Polo Masculina Com Estampa De Letras Lapela E Botões(Branco,GG/XL)",
-        "货架位": "014"
+        "货架位": "42"
     },
     {
         "SKU": "A1677-Branco-G/L",
         "标题": "Camisa Polo Masculina Com Estampa De Letras Lapela E Botões(Branco,G/L)",
-        "货架位": "014"
+        "货架位": "42"
     },
     {
         "SKU": "A1677-Branco-M",
         "标题": "Camisa Polo Masculina Com Estampa De Letras Lapela E Botões(Branco,M)",
-        "货架位": "014"
+        "货架位": "42"
     },
     {
         "SKU": "A1677-Preto-XGG/XXXL",
         "标题": "Camisa Polo Masculina Com Estampa De Letras Lapela E Botões(Preto,XGG/XXXL)",
-        "货架位": "014"
+        "货架位": "42"
     },
     {
         "SKU": "A1677-Preto-XG/XXL",
@@ -6522,7 +6572,7 @@
     {
         "SKU": "A1097-Preto-15.6in",
         "标题": "Mochila Executivo Bolsa De Mão Multiuso Resistente Cor Preto",
-        "货架位": "14"
+        "货架位": "044"
     },
     {
         "SKU": "A1134-200pcs",
@@ -6692,7 +6742,7 @@
     {
         "SKU": "A1097-Azul-15.6in",
         "标题": "Mochila Executivo Bolsa De Mão Multifuncional Resistente(Azul)",
-        "货架位": "14"
+        "货架位": "044"
     },
     {
         "SKU": "A1101-Preto-XG/XXL",
@@ -6707,7 +6757,7 @@
     {
         "SKU": "A1097-Preto-17.3in",
         "标题": "Mochila Executivo Bolsa De Mão Multifuncional Resistente(Preto 17.3in)",
-        "货架位": "14"
+        "货架位": "044"
     },
     {
         "SKU": "A1101-Preto-P",
@@ -6772,7 +6822,7 @@
     {
         "SKU": "A1627",
         "标题": "Kit 17 Peças Brinquedos De Cozinha Montessori Pronta Entrega(Kit 17pcs)",
-        "货架位": "3-3-6"
+        "货架位": "14"
     },
     {
         "SKU": "A1621",
@@ -7677,22 +7727,22 @@
     {
         "SKU": "A1522-Vinho",
         "标题": "Bolsa Grande Feminina Transversal Moderna Luxo E Carteira(Vinho)",
-        "货架位": null
+        "货架位": "0013"
     },
     {
         "SKU": "A1522-Marrom",
         "标题": "Bolsa Grande Feminina Transversal Moderna Luxo E Carteira(Marrom)",
-        "货架位": null
+        "货架位": "0013"
     },
     {
         "SKU": "A1522-Preto",
         "标题": "Bolsa Grande Feminina Transversal Moderna Luxo E Carteira(Preto)",
-        "货架位": null
+        "货架位": "0013"
     },
     {
         "SKU": "A1522-Marrom-escuro",
         "标题": "Bolsa Grande Feminina Transversal Moderna Luxo E Carteira(Marrom-escuro)",
-        "货架位": null
+        "货架位": "0013"
     },
     {
         "SKU": "A1521",
@@ -8007,7 +8057,7 @@
     {
         "SKU": "A1147-Preto com espelho",
         "标题": "Maleta Maquiagem Bijuteria Porta Divisória Ajustável\\espelho(Preto com espelho)",
-        "货架位": null
+        "货架位": "4-3-2"
     },
     {
         "SKU": "A1494",
@@ -8107,12 +8157,12 @@
     {
         "SKU": "A1488-Vermelho Azul",
         "标题": "Kit Case Bolsa Estojo Nintendo Switch Alça Ombro Novo",
-        "货架位": "5-2-3"
+        "货架位": "18"
     },
     {
         "SKU": "A1488-Preto",
         "标题": "Case Bolsa Estojo Nintendo Switch Alça Ombro Pronta Entrega",
-        "货架位": "5-2-3"
+        "货架位": "18"
     },
     {
         "SKU": "A1487-Rosa",
@@ -8902,7 +8952,7 @@
     {
         "SKU": "A1406",
         "标题": "Suporte De Celular P/ Moto Carregador Por Indução Anti-roubo",
-        "货架位": "019"
+        "货架位": "15"
     },
     {
         "SKU": "A1389-Prateado",
@@ -8937,7 +8987,7 @@
     {
         "SKU": "A1387-Prateado",
         "标题": "Jogo De Chaves Multidentada E Hexagonal Com 40 Peças Torx(Prateado)",
-        "货架位": "20"
+        "货架位": "14"
     },
     {
         "SKU": "A1381-Preto",
@@ -9177,7 +9227,7 @@
     {
         "SKU": "A1383",
         "标题": "Fone Removível Headset C/ Microfone Atendimento Call Center",
-        "货架位": "03"
+        "货架位": "21"
     },
     {
         "SKU": "A1173-Roxo",
@@ -9797,7 +9847,7 @@
     {
         "SKU": "A1283",
         "标题": "Tênis De Parede Para Pais E Filhos Com Brinquedo Robótico",
-        "货架位": "3-3-5"
+        "货架位": "16"
     },
     {
         "SKU": "A1062-Preto",
@@ -10017,27 +10067,27 @@
     {
         "SKU": "A1275-Preto",
         "标题": "Bolsa Feminina Transversal Passeio Casual Média Trabalho(Preto)",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "A1275-Vermelho",
         "标题": "Bolsa Feminina Transversal Passeio Casual Média Trabalho(Vermelho)",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "A1275-Cinza",
         "标题": "Bolsa Feminina Transversal Passeio Casual Média Trabalho(Cinza)",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "A1275-Marrom-escuro",
         "标题": "Bolsa Feminina Transversal Passeio Casual Média Trabalho(Marrom-escuro)",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "A1275-Marrom-claro",
         "标题": "Bolsa Feminina Transversal Passeio Casual Média Trabalho(Marrom-claro)",
-        "货架位": null
+        "货架位": "44"
     },
     {
         "SKU": "A1234",
@@ -11352,7 +11402,7 @@
     {
         "SKU": "A1147-Preto",
         "标题": "Maleta Maquiagem Bijuteria Porta Divisória Ajustável(Preto)",
-        "货架位": null
+        "货架位": "4-3-2"
     },
     {
         "SKU": "A1085-Preto",
@@ -12337,7 +12387,7 @@
     {
         "SKU": "A1071",
         "标题": "Tala Órtese Punho Pulso Polegar Artrite Esquerdo / Direito",
-        "货架位": "11"
+        "货架位": "12"
     },
     {
         "SKU": "A1067-220V",
@@ -12872,7 +12922,7 @@
     {
         "SKU": "A1030",
         "标题": "Alicate 5 Em1 Cortador Multifuncional Com 5 Cabeça Decapador",
-        "货架位": "2-2-1"
+        "货架位": "004"
     },
     {
         "SKU": "A1029-Prateado",
