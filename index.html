@@ -18,76 +18,157 @@
         .container {
             width: 100%;
             max-width: 800px;
-            padding: 20px;
+            padding: clamp(15px, 3vw, 20px);
+            margin: 0 auto;
             box-sizing: border-box;
             background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: clamp(8px, 2vw, 12px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
         }
         .input-group {
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
+            gap: clamp(8px, 2vw, 15px);
+            margin-bottom: clamp(15px, 3vw, 25px);
         }
         input[type="text"], input[type="password"] {
             flex: 1;
-            padding: 10px;
-            margin-right: 10px;
-            box-sizing: border-box;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        button {
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
+            min-width: 200px;
+            padding: clamp(12px, 2vw, 15px);
+            font-size: clamp(14px, 2vw, 16px);
+            border: 1.5px solid #e0e0e0;
+            border-radius: 8px;
             transition: all 0.3s ease;
         }
+        input[type="text"]:focus, input[type="password"]:focus {
+            border-color: #3584e4;
+            box-shadow: 0 0 0 3px rgba(53, 132, 228, 0.1);
+            outline: none;
+        }
+        button {
+            padding: clamp(10px, 2vw, 15px) clamp(20px, 3vw, 30px);
+            font-size: clamp(14px, 1.8vw, 16px);
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            color: #fff;
+            background: linear-gradient(145deg, #2ecc71, #27ae60);
+            box-shadow: 
+                0 4px 15px rgba(46, 204, 113, 0.2),
+                0 2px 4px rgba(0, 0, 0, 0.1),
+                inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            min-width: clamp(100px, 15vw, 120px);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+        }
         button:hover {
-            background-color: #218838;
             transform: translateY(-2px);
+            box-shadow: 
+                0 6px 20px rgba(46, 204, 113, 0.3),
+                0 4px 6px rgba(0, 0, 0, 0.1),
+                inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(145deg, #33d176, #2cc36a);
+        }
+        button:active {
+            transform: translateY(1px);
+            box-shadow: 
+                0 2px 10px rgba(46, 204, 113, 0.2),
+                0 1px 2px rgba(0, 0, 0, 0.1),
+                inset 0 2px 4px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(145deg, #27ae60, #25a65c);
+        }
+        button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.5);
+            opacity: 0;
+            border-radius: 100%;
+            transform: scale(1, 1) translate(-50%);
+            transform-origin: 50% 50%;
+        }
+        button:focus:not(:active)::after {
+            animation: ripple 1s ease-out;
         }
         .clear-button {
-            background-color: #dc3545;
-            margin-left: 10px;
+            background: linear-gradient(145deg, #e74c3c, #c0392b);
+            box-shadow: 
+                0 4px 15px rgba(231, 76, 60, 0.2),
+                0 2px 4px rgba(0, 0, 0, 0.1),
+                inset 0 -2px 4px rgba(0, 0, 0, 0.1);
         }
         .clear-button:hover {
-            background-color: #c82333;
+            background: linear-gradient(145deg, #eb6154, #d44133);
+            box-shadow: 
+                0 6px 20px rgba(231, 76, 60, 0.3),
+                0 4px 6px rgba(0, 0, 0, 0.1),
+                inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .clear-button:active {
+            background: linear-gradient(145deg, #c0392b, #b33528);
+            box-shadow: 
+                0 2px 10px rgba(231, 76, 60, 0.2),
+                0 1px 2px rgba(0, 0, 0, 0.1),
+                inset 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 0.5;
+            }
+            20% {
+                transform: scale(25, 25);
+                opacity: 0.3;
+            }
+            100% {
+                opacity: 0;
+                transform: scale(40, 40);
+            }
         }
         .product-info {
-            margin-top: 20px;
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 8px;
-            background-color: #fff;
-            cursor: pointer;
+            padding: clamp(10px, 2vw, 15px);
+            margin-top: clamp(8px, 1.5vw, 12px);
+            border-radius: clamp(8px, 2vw, 12px);
+            gap: clamp(8px, 1.5vw, 12px);
             display: flex;
             align-items: flex-start;
-            gap: 15px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #eee;
+            background-color: #fff;
+            transition: all 0.3s ease;
         }
         .product-info:hover {
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .product-info img {
-            height: 60px;
-            border-radius: 8px;
+            width: clamp(60px, 15vw, 80px);
+            height: clamp(60px, 15vw, 80px);
             object-fit: cover;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 6px;
+            flex-shrink: 0;
         }
         .product-details {
-            display: flex;
-            flex-direction: column;
-            padding-left: 10px;
             flex: 1;
+            padding-left: 10px;
         }
-        .product-details h3, .product-details p {
-            margin: 5px 0;
-            padding: 5px 0;
+        .product-details h2 {
+            font-size: clamp(15px, 2vw, 18px);
+            margin: 0 0 4px 0;
+            color: #1a73e8;
+        }
+        .product-details p {
+            font-size: clamp(13px, 1.6vw, 15px);
+            margin: 2px 0;
+            line-height: 1.3;
+            color: #444;
         }
         .images {
             overflow: hidden;
@@ -120,12 +201,11 @@
         }
 
         .product-card {
-            width: 90%;
-            max-width: 800px;
+            width: 100%;
+            max-width: clamp(300px, 90vw, 800px);
+            margin: clamp(15px, 3vw, 25px) auto;
             border: 1px solid #ddd;
             border-radius: 12px;
-            margin: 20px auto;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             overflow: hidden;
             background-color: #fff;
             transition: transform 0.3s ease;
@@ -136,7 +216,7 @@
         }
 
         .product-card .card-header {
-            padding: 20px;
+            padding: clamp(15px, 3vw, 25px);
             background-color: #f8f9fa;
             text-align: center;
             border-bottom: 1px solid #eee;
@@ -149,8 +229,8 @@
         }
 
         .product-card .card-body {
-            padding: 25px;
-            font-size: 16px;
+            padding: clamp(15px, 3vw, 25px);
+            font-size: clamp(14px, 1.8vw, 16px);
             text-align: center;
             line-height: 1.8;
         }
@@ -173,113 +253,516 @@
 
         .product-card .card-footer {
             text-align: center;
-            padding: 20px;
+            padding: clamp(15px, 3vw, 25px);
             background-color: #f8f9fa;
             border-top: 1px solid #eee;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(clamp(120px, 25vw, 200px), 1fr));
+            gap: clamp(10px, 2vw, 20px);
         }
 
         .card-footer img {
-            max-width: 30%;
-            height: auto;
-            margin: 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border: 1px solid #ddd;
-            transition: transform 0.3s ease;
+            width: 100%;
+            border-radius: clamp(6px, 1.5vw, 10px);
         }
-        /* 添加移动端的特殊处理 */
-        @media (max-width: 300px) {
-            .container {
-                padding: 15px;
-            }
-            
-            .card-body {
-                padding: 15px;
-            }
-            
-            .card-body p {
-                font-size: 14px;
-            }
-            
-            .card-header h2 {
-                font-size: 20px;
+
+        /* 移动端特殊优化 */
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
             }
 
-            .product-info {
+            .container {
+                border-radius: 0;
+                margin: 0;
+            }
+
+            .input-group {
                 flex-direction: column;
             }
 
-            .product-info img {
-                width: 80px;
-                height: 80px;
-                margin: 0 auto;
-            }
-
-            .card-footer img {
-                max-width: 50%;
-            }
-        }
-
-        .card-footer img:hover {
-            transform: scale(1.05);
-        }
-
-        .back-button {
-            display: block;
-            margin: 20px auto;
-            padding: 12px 25px;
-            font-size: 18px;
-            background: linear-gradient(145deg, #007bff, #0056b3);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-        }
-
-        .back-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,123,255,0.4);
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-            
-            .card-body {
-                padding: 15px;
-            }
-            
-            .card-body p {
-                font-size: 14px;
-            }
-            
-            .card-header h2 {
-                font-size: 20px;
+            button {
+                width: 100%;
+                margin: 5px 0;
+                padding: 12px 20px;
             }
 
             .product-info {
-                flex-direction: row;  /* 改为水平布局 */
-                align-items: center;  /* 垂直居中对齐 */
+                flex-direction: row;
+                align-items: center;
+                padding: 10px;
+                gap: 10px;
             }
 
             .product-info img {
-                width: 80px;
-                height: 80px;
-                margin: 0;  /* 移除自动边距 */
+                width: 70px;
+                height: 70px;
+                margin: 0;
             }
 
-            .card-footer img {
-                max-width: 80%;
+            .product-details {
+                text-align: left;
+                padding-left: 5px;
+            }
+
+            .product-details h2 {
+                margin: 0 0 2px 0;
+            }
+
+            .product-details p {
+                margin: 1px 0;
+                line-height: 1.2;
+            }
+
+            /* 优化搜索结果间距 */
+            #results {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+
+        /* 小屏幕设备优化 */
+        @media (max-width: 360px) {
+            .input-group {
+                gap: 8px;
+            }
+
+            input[type="text"], input[type="password"] {
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            button {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+
+            .product-info img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .product-details h2 {
+                font-size: 14px;
+            }
+
+            .product-details p {
+                font-size: 12px;
+            }
+        }
+
+        /* 添加触摸优化 */
+        @media (hover: none) {
+            button:active {
+                transform: scale(0.98);
+                transition: transform 0.1s;
+            }
+
+            .product-info:active {
+                transform: scale(0.98);
+            }
+        }
+
+        /* 导入字体 */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+        /* 更新标题样式 */
+        .title-container {
+            text-align: center;
+            margin: 20px 0 30px 0;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .title-container h2 {
+            display: inline-block;
+            font-size: clamp(22px, 4vw, 32px);
+            margin: 0;
+            padding: 15px 35px;
+            font-family: 'Poppins', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(
+                45deg,
+                #1a5fb4 0%,     /* 深邃蓝 */
+                #3584e4 50%,    /* 亮蓝 */
+                #62a0ea 100%    /* 天蓝 */
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            position: relative;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            animation: shine 3s ease-in-out infinite;
+        }
+
+        /* 优化边框效果 */
+        .title-container h2::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 2.5px solid transparent;
+            border-radius: 25px;
+            background: linear-gradient(45deg, #1a5fb4, #3584e4, #62a0ea) border-box;
+            /* 添加多浏览器支持 */
+            -webkit-mask:
+                linear-gradient(#fff 0 0) padding-box, 
+                linear-gradient(#fff 0 0);
+            mask:
+                linear-gradient(#fff 0 0) padding-box, 
+                linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+        }
+
+        /* 优化文字发光效果 */
+        .title-container h2 {
+            text-shadow: 
+                0 0 1px rgba(53, 132, 228, 0.3),
+                0 0 2px rgba(53, 132, 228, 0.3);
+            animation: 
+                float 3s ease-in-out infinite,
+                shine 3s ease-in-out infinite;
+        }
+
+        /* 边框动画效果 */
+        .title-container h2.pulse::after {
+            animation: borderPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes borderPulse {
+            0% {
+                background: linear-gradient(90deg, #1a5fb4, #3584e4, #62a0ea) border-box;
+            }
+            50% {
+                background: linear-gradient(180deg, #62a0ea, #3584e4, #1a5fb4) border-box;
+            }
+            100% {
+                background: linear-gradient(270deg, #1a5fb4, #3584e4, #62a0ea) border-box;
+            }
+        }
+
+        /* 文字渐变动画 */
+        @keyframes shine {
+            0% {
+                background-position: 0% center;
+            }
+            50% {
+                background-position: 100% center;
+            }
+            100% {
+                background-position: 0% center;
+            }
+        }
+
+        /* 上下浮动动画 */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        /* 移动端优化 */
+        @media (max-width: 768px) {
+            .title-container h2 {
+                font-size: clamp(18px, 3.5vw, 24px);
+                padding: 12px 25px;
+            }
+
+            @keyframes float {
+                0%, 100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+
+        /* 更新返回按钮样式 */
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            padding: 12px 32px 12px 28px;
+            background: linear-gradient(
+                145deg,
+                #1c1c1c 0%,    /* 钛黑色 */
+                #2d2d2d 50%,
+                #1c1c1c 100%
+            );
+            color: #e4f1fe;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            min-width: auto;
+            width: auto;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 
+                0 4px 15px rgba(0, 0, 0, 0.3),
+                0 2px 8px rgba(0, 0, 0, 0.2),
+                inset 0 1px 2px rgba(255, 255, 255, 0.1),
+                inset 0 -2px 2px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* 添加双箭头图标 */
+        .back-button::before {
+            content: '<<';
+            font-size: 18px;
+            font-weight: 800;
+            margin-right: 2px;
+            background: linear-gradient(to bottom, #fff, #e4f1fe);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: none;
+        }
+
+        /* 按钮悬停效果 */
+        .back-button:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(
+                145deg,
+                #2d2d2d 0%,
+                #3d3d3d 50%,
+                #2d2d2d 100%
+            );
+            box-shadow: 
+                0 6px 20px rgba(0, 0, 0, 0.4),
+                0 4px 12px rgba(0, 0, 0, 0.3),
+                inset 0 1px 2px rgba(255, 255, 255, 0.15),
+                inset 0 -2px 2px rgba(0, 0, 0, 0.25);
+            color: #ffffff;
+        }
+
+        /* 按钮点击效果 */
+        .back-button:active {
+            transform: translateY(1px);
+            background: linear-gradient(
+                145deg,
+                #161616 0%,
+                #1c1c1c 50%,
+                #161616 100%
+            );
+            box-shadow: 
+                0 2px 10px rgba(0, 0, 0, 0.3),
+                0 1px 4px rgba(0, 0, 0, 0.2),
+                inset 0 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        /* 添加金属光泽效果 */
+        .back-button::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background: linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.12) 0%,
+                rgba(255, 255, 255, 0.03) 100%
+            );
+            border-radius: 25px 25px 0 0;
+            pointer-events: none;
+        }
+
+        /* 添加按钮脉冲动画 */
+        @keyframes pulse {
+            0% {
+                box-shadow: 
+                    0 4px 15px rgba(0, 0, 0, 0.3),
+                    0 2px 8px rgba(0, 0, 0, 0.2),
+                    inset 0 1px 2px rgba(255, 255, 255, 0.1),
+                    inset 0 -2px 2px rgba(0, 0, 0, 0.2),
+                    0 0 0 0 rgba(45, 45, 45, 0.7);
+            }
+            70% {
+                box-shadow: 
+                    0 4px 15px rgba(0, 0, 0, 0.3),
+                    0 2px 8px rgba(0, 0, 0, 0.2),
+                    inset 0 1px 2px rgba(255, 255, 255, 0.1),
+                    inset 0 -2px 2px rgba(0, 0, 0, 0.2),
+                    0 0 0 15px rgba(45, 45, 45, 0);
+            }
+            100% {
+                box-shadow: 
+                    0 4px 15px rgba(0, 0, 0, 0.3),
+                    0 2px 8px rgba(0, 0, 0, 0.2),
+                    inset 0 1px 2px rgba(255, 255, 255, 0.1),
+                    inset 0 -2px 2px rgba(0, 0, 0, 0.2),
+                    0 0 0 0 rgba(45, 45, 45, 0);
+            }
+        }
+
+        .back-button {
+            animation: pulse 2s infinite;
+        }
+
+        /* 移动端优化 */
+        @media (max-width: 768px) {
+            .back-button {
+                bottom: 15px;
+                right: 15px;
+                padding: 10px 24px 10px 20px;
+                font-size: 14px;
+            }
+
+            .back-button::before {
+                font-size: 16px;
+            }
+        }
+
+        /* 触摸设备优化 */
+        @media (hover: none) {
+            .back-button:active {
+                transform: scale(0.96);
+                transition: transform 0.1s;
+            }
+        }
+
+        /* 更新横条样式 */
+        .corner-banner {
+            position: fixed;
+            top: 12px;
+            left: -48px;  /* 更靠近边缘 */
+            width: 140px; /* 更窄的宽度 */
+            height: 26px; /* 更小的高度 */
+            background: linear-gradient(
+                135deg,
+                #1a5fb4 0%,
+                #3584e4 50%,
+                #1a5fb4 100%
+            );
+            transform: rotate(-45deg);
+            box-shadow: 
+                0 2px 6px rgba(26, 95, 180, 0.25),
+                0 1px 2px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: bannerGlow 3s ease-in-out infinite;
+            overflow: hidden;
+        }
+
+        .corner-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255, 255, 255, 0.2),
+                transparent
+            );
+            animation: shimmer 2s infinite;
+        }
+
+        .corner-banner span {
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 11px;      /* 更小的字体 */
+            font-weight: 500;     /* 更细的字重 */
+            letter-spacing: 0.3px; /* 更小的字间距 */
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+            white-space: nowrap;
+            animation: textPulse 3s ease-in-out infinite;
+            transform: scale(0.95); /* 稍微缩小文字 */
+        }
+
+        @keyframes bannerGlow {
+            0%, 100% {
+                box-shadow: 
+                    0 2px 6px rgba(26, 95, 180, 0.25),
+                    0 1px 2px rgba(0, 0, 0, 0.1);
+            }
+            50% {
+                box-shadow: 
+                    0 5px 15px rgba(26, 95, 180, 0.4),
+                    0 2px 6px rgba(0, 0, 0, 0.15);
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(200%);
+            }
+        }
+
+        @keyframes textPulse {
+            0%, 100% {
+                opacity: 0.9;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.05);
+            }
+        }
+
+        /* 移动端优化 */
+        @media (max-width: 768px) {
+            .corner-banner {
+                top: 10px;
+                left: -45px;
+                width: 130px;
+                height: 24px;
+            }
+
+            .corner-banner span {
+                font-size: 10px;
+                letter-spacing: 0.2px;
+                transform: scale(0.9);
+            }
+        }
+
+        /* 小屏幕设备优化 */
+        @media (max-width: 360px) {
+            .corner-banner {
+                top: 8px;
+                left: -42px;
+                width: 120px;
+                height: 22px;
+            }
+
+            .corner-banner span {
+                font-size: 9px;
+                letter-spacing: 0.1px;
+                transform: scale(0.85);
             }
         }
     </style>
 </head>
-<body></body>
+<body>
+    <div class="corner-banner">
+        <span>Mercado V 0.1</span>
+    </div>
     <div class="container">
         <div id="login-form">
             <h2>Login</h2>
@@ -288,7 +771,14 @@
             <button onclick="login()">Login</button>
         </div>
         <div id="main-content" style="display:none;">
-            <h2>SKU ou Título Pesquisa</h2>
+            <div class="title-container">
+                <div class="dragon-container">
+                    <div class="chinese-dragon"></div>
+                    <div class="chinese-dragon"></div>
+                    <div class="chinese-dragon"></div>
+                </div>
+                <h2>SKU ou Título Pesquisa</h2>
+            </div>
             <div class="input-group">
                 <input type="text" id="search-input" placeholder="Insira o SKU ou o título do produto">
                 <button onclick="searchItems()">Procurar</button>
@@ -339,6 +829,13 @@
             document.getElementById('search-input').value = '';
             document.getElementById('results').innerHTML = '';
             document.getElementById('no-result').innerHTML = '';
+            
+            const backButton = document.querySelector('.back-button');
+            if (backButton) {
+                backButton.remove();
+            }
+            
+            searchItems();
         }
 
         // 加载产品数据
@@ -368,62 +865,49 @@
             resultsDiv.innerHTML = '';
             noResultDiv.innerHTML = '';
 
-            if (!query) {
-                noResultDiv.textContent = '请输入搜索关键词';
-                return;
+            const existingBackButton = document.querySelector('.back-button');
+            if (existingBackButton) {
+                existingBackButton.remove();
             }
 
-            const matchingProducts = data.filter(item => 
-                item.SKU.toLowerCase().includes(query) || 
-                item["产品标题"].toLowerCase().includes(query) ||
-                item["产品 ID"].toLowerCase().includes(query) ||
-                item["中文名"].toLowerCase().includes(query)
-            );
+            let productsToShow = [];
 
-            lastSearchResults = matchingProducts;
+            if (!query) {
+                productsToShow = [...data];
+            } else {
+                productsToShow = data.filter(item => 
+                    item.SKU.toLowerCase().includes(query) || 
+                    item["产品标题"].toLowerCase().includes(query) ||
+                    item["产品 ID"].toLowerCase().includes(query) ||
+                    item["中文名"].toLowerCase().includes(query)
+                );
+            }
 
-            if (matchingProducts.length > 0) {
-                matchingProducts.forEach(product => {
-                    const productInfo = document.createElement('div');
-                    productInfo.classList.add('product-info');
+            lastSearchResults = productsToShow;
 
-                    const imgElement = document.createElement('img');
-                    const firstImageUrl = product["产品图1"] || product["变种图1"];
-                    imgElement.src = firstImageUrl || 'default-thumbnail.png';
-                    imgElement.alt = `Image for ${product["产品标题"]}`;
-                    productInfo.appendChild(imgElement);
+            if (productsToShow.length > 0) {
+                productsToShow.sort((a, b) => {
+                    const skuA = a.SKU.toLowerCase();
+                    const skuB = b.SKU.toLowerCase();
+                    return skuA.localeCompare(skuB);
+                });
 
-                    const detailsDiv = document.createElement('div');
-                    detailsDiv.classList.add('product-details');
-
-                    const idElement = document.createElement('p');
-                    idElement.textContent = `ID: ${product["产品 ID"]}`;
-                    detailsDiv.appendChild(idElement);
-
-                    const titleElement = document.createElement('p');
-                    titleElement.textContent = `标题: ${product["产品标题"]}`;
-                    detailsDiv.appendChild(titleElement);
-
-                    const skuElement = document.createElement('h2');
-                    skuElement.textContent = `SKU: ${product.SKU}`;
-                    skuElement.style.color = 'blue';
-                    detailsDiv.appendChild(skuElement);
-
-                    // 添加货架位信息
-                    const shelfElement = document.createElement('p');
-                    shelfElement.textContent = `货架位: ${shelfLocations[product.SKU] || "未分配"}`;
-                    shelfElement.style.color = '#e67e22';
-                    detailsDiv.appendChild(shelfElement);
-
-                    const chineseNameElement = document.createElement('p');
-                    chineseNameElement.textContent = `中文名: ${product["中文名"]}`;
-                    detailsDiv.appendChild(chineseNameElement);
-
-                    productInfo.appendChild(detailsDiv);
-                    productInfo.onclick = () => displayImages(product);
-
+                productsToShow.forEach(product => {
+                    const productInfo = createProductInfo(product);
                     resultsDiv.appendChild(productInfo);
                 });
+
+                addSearchBackButton();
+
+                if (!query) {
+                    const totalCount = document.createElement('div');
+                    totalCount.style.textAlign = 'center';
+                    totalCount.style.padding = '10px';
+                    totalCount.style.color = '#666';
+                    totalCount.style.fontSize = '14px';
+                    totalCount.textContent = `显示全部 ${productsToShow.length} 个产品`;
+                    resultsDiv.insertBefore(totalCount, resultsDiv.firstChild);
+                }
             } else {
                 noResultDiv.textContent = '未找到匹配结果';
             }
@@ -437,36 +921,7 @@
 
             if (lastSearchResults.length > 0) {
                 lastSearchResults.forEach(product => {
-                    const productInfo = document.createElement('div');
-                    productInfo.classList.add('product-info');
-
-                    const imgElement = document.createElement('img');
-                    const firstImageUrl = product["产品图1"] || product["变种图1"];
-                    imgElement.src = firstImageUrl || 'default-thumbnail.png';
-                    imgElement.alt = `Image for ${product["产品标题"]}`;
-                    productInfo.appendChild(imgElement);
-
-                    const detailsDiv = document.createElement('div');
-                    detailsDiv.classList.add('product-details');
-
-                    const titleElement = document.createElement('p');
-                    titleElement.textContent = `Título: ${product["产品标题"]}`;
-                    detailsDiv.appendChild(titleElement);
-
-                    const skuElement = document.createElement('h2');
-                    skuElement.textContent = `SKU: ${product.SKU}`;
-                    skuElement.style.color = 'blue';
-                    detailsDiv.appendChild(skuElement);
-
-                    // 添加货架位信息
-                    const shelfElement = document.createElement('p');
-                    shelfElement.textContent = `货架位: ${shelfLocations[product.SKU] || "Sem Estante"}`;
-                    shelfElement.style.color = '#e67e22';
-                    detailsDiv.appendChild(shelfElement);
-
-                    productInfo.appendChild(detailsDiv);
-                    productInfo.onclick = () => displayImages(product);
-
+                    const productInfo = createProductInfo(product);
                     resultsDiv.appendChild(productInfo);
                 });
             } else {
@@ -474,19 +929,39 @@
             }
         }
 
+        // 保存滚动位置
+        let lastScrollPosition = 0;
+
         function displayImages(product) {
+            lastScrollPosition = window.pageYOffset;
+            
             const container = document.querySelector('.container');
             const originalContent = container.innerHTML;
 
-            // 创建返回按钮并放在最上方
             const backButton = document.createElement('button');
             backButton.classList.add('back-button');
             backButton.textContent = 'Voltar';
-            backButton.style.marginBottom = '20px';
+            
             backButton.onclick = () => {
+                const currentBackButton = document.querySelector('.back-button');
+                if (currentBackButton) {
+                    currentBackButton.remove();
+                }
+                
                 container.innerHTML = originalContent;
                 restoreSearchResults();
                 checkLogin();
+                
+                setTimeout(() => {
+                    window.scrollTo({
+                        top: lastScrollPosition,
+                        behavior: 'smooth'
+                    });
+                    const searchInput = document.getElementById('search-input');
+                    if (searchInput) {
+                        searchInput.focus();
+                    }
+                }, 100);
             };
 
             const productCard = document.createElement('div');
@@ -536,11 +1011,175 @@
             productCard.appendChild(cardFooter);
 
             container.innerHTML = '';
-            container.appendChild(backButton);
             container.appendChild(productCard);
+            document.body.appendChild(backButton);  // 将返回按钮添加到 body
+        }
+
+        function createProductInfo(product) {
+            const productInfo = document.createElement('div');
+            productInfo.classList.add('product-info');
+
+            const imgElement = document.createElement('img');
+            const firstImageUrl = product["产品图1"] || product["变种图1"];
+            imgElement.src = firstImageUrl || 'default-thumbnail.png';
+            imgElement.alt = `Image for ${product["产品标题"]}`;
+            
+            const detailsDiv = document.createElement('div');
+            detailsDiv.classList.add('product-details');
+
+            // 调整显示顺序，SKU放在最前面
+            const skuElement = document.createElement('h2');
+            skuElement.textContent = `SKU: ${product.SKU}`;
+
+            const idElement = document.createElement('p');
+            idElement.textContent = `ID: ${product["产品 ID"]}`;
+
+            const titleElement = document.createElement('p');
+            titleElement.textContent = `标题: ${product["产品标题"]}`;
+
+            const shelfElement = document.createElement('p');
+            shelfElement.textContent = `货架位: ${shelfLocations[product.SKU] || "未分配"}`;
+            shelfElement.style.color = '#e67e22';
+
+            const chineseNameElement = document.createElement('p');
+            chineseNameElement.textContent = `中文名: ${product["中文名"]}`;
+
+            detailsDiv.appendChild(skuElement);
+            detailsDiv.appendChild(idElement);
+            detailsDiv.appendChild(titleElement);
+            detailsDiv.appendChild(shelfElement);
+            detailsDiv.appendChild(chineseNameElement);
+
+            productInfo.appendChild(imgElement);
+            productInfo.appendChild(detailsDiv);
+            
+            productInfo.onclick = () => displayImages(product);
+
+            return productInfo;
         }
 
         checkLogin();
+
+        // 添加标题点击效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const title = document.querySelector('.title-container h2');
+            if (title) {
+                title.addEventListener('click', function() {
+                    this.classList.add('pulse');
+                    // 动画结束后移除类名
+                    setTimeout(() => {
+                        this.classList.remove('pulse');
+                    }, 2000);
+                });
+            }
+        });
+
+        // 添加触摸设备的返回按钮优化
+        if ('ontouchstart' in window) {
+            document.addEventListener('touchstart', function(e) {
+                const backButton = document.querySelector('.back-button');
+                if (backButton && e.target === backButton) {
+                    backButton.style.transform = 'scale(0.95)';
+                }
+            });
+
+            document.addEventListener('touchend', function(e) {
+                const backButton = document.querySelector('.back-button');
+                if (backButton && e.target === backButton) {
+                    backButton.style.transform = 'none';
+                }
+            });
+        }
+
+        // 添加搜索界面的返回按钮功能
+        function addSearchBackButton() {
+            const backButton = document.createElement('button');
+            backButton.classList.add('back-button');
+            backButton.textContent = 'Voltar';
+            
+            backButton.onclick = () => {
+                const searchInput = document.getElementById('search-input');
+                if (searchInput) {
+                    // 清空搜索结果
+                    document.getElementById('results').innerHTML = '';
+                    document.getElementById('no-result').innerHTML = '';
+                    searchInput.value = '';
+                    
+                    // 平滑滚动到顶部并聚焦搜索框
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                    searchInput.focus();
+                }
+            };
+
+            document.body.appendChild(backButton);
+        }
+
+        // 添加龙的交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const dragonContainer = document.querySelector('.dragon-container');
+            let lastScrollY = window.scrollY;
+            
+            // 添加滚动效果
+            window.addEventListener('scroll', function() {
+                const currentScrollY = window.scrollY;
+                const dragons = dragonContainer.querySelectorAll('.chinese-dragon');
+                
+                dragons.forEach((dragon, index) => {
+                    const speed = 1 + (index * 0.2);
+                    const deltaY = (currentScrollY - lastScrollY) * speed;
+                    
+                    dragon.style.transform = `translateY(${deltaY}px)`;
+                    
+                    setTimeout(() => {
+                        dragon.style.transform = '';
+                    }, 300);
+                });
+                
+                lastScrollY = currentScrollY;
+            });
+        });
+
+        // 添加角标交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const badge = document.querySelector('.corner-badge');
+            
+            badge.addEventListener('click', function() {
+                this.style.animation = 'none';
+                this.offsetHeight; // 触发重排
+                this.style.animation = 'badgePulse 3s ease-in-out infinite';
+                
+                // 添加点击波纹效果
+                const ripple = document.createElement('div');
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
+                ripple.style.width = '100%';
+                ripple.style.height = '100%';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s linear';
+                
+                this.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+        });
+
+        // 添加波纹动画
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(2);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
     </script>
 </body>
 </html>
