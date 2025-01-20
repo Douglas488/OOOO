@@ -1,5 +1,430 @@
 [
     {
+        "SKU": "A2241-Preto",
+        "标题": "Conjunto De Capa De Chuva Leve E Multifuncional Com Capuz(Preto,210*140)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2241-Verde",
+        "标题": "Conjunto De Capa De Chuva Leve E Multifuncional Com Capuz(Verde,210*140)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2241-Cinza",
+        "标题": "Conjunto De Capa De Chuva Leve E Multifuncional Com Capuz(Cinza,210*140)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2248-Branco",
+        "标题": "Removedor Elétrico Impermeável Para Cabelo E Pelos Íntimos(Branco)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2248-Azul-escuro",
+        "标题": "Removedor Elétrico Impermeável Para Cabelo E Pelos Íntimos(Azul-escuro)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2248-Preto",
+        "标题": "Removedor Elétrico Impermeável Para Cabelo E Pelos Íntimos(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2182-Azul",
+        "标题": "Removedor Elétrico Masculino Para Pelos Íntimos Impermeável(Azul)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2247-Preto",
+        "标题": "Removedor Elétrico Masculino Impermeável Para Pelos Íntimos(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2246-Preto",
+        "标题": "Removedor Elétrica Profissional Para Cães Grandes E Gatos(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2182-Preto Sem Visor",
+        "标题": "Removedor Elétrico Masculino Para Pelos Íntimos Impermeável(Preto Sem Visor)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2245-Preto",
+        "标题": "Removedor Elétrico Masculino Impermeável Para Pelos Íntimos(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2245-Verde",
+        "标题": "Removedor Elétrico Masculino Impermeável Para Pelos Íntimos(Verde)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2245-Laranja",
+        "标题": "Removedor Elétrico Masculino Impermeável Para Pelos Íntimos(Laranja)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2239-Cafe",
+        "标题": "Óculos De Sol Masculino Polarizado Para Pesca E Viagem(Café)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2239-Azul",
+        "标题": "Óculos De Sol Masculino Polarizado Para Pesca E Viagem(Azul)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2239-Verde",
+        "标题": "Óculos De Sol Masculino Polarizado Para Pesca E Viagem(Verde)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2239-Vermelho",
+        "标题": "Óculos De Sol Masculino Polarizado Para Pesca E Viagem(Vermelho)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2239-Preto",
+        "标题": "Óculos De Sol Masculino Polarizado Para Pesca E Viagem(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2240",
+        "标题": "Chave De Catraca De Dedo Compacta E Prática Para Mão",
+        "货架位": null
+    },
+    {
+        "SKU": "A2244-Preto",
+        "标题": "Soprador De Folhas E Secador Turbina Para Carro Potente(Preto,110V/220V)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2243-Preto",
+        "标题": "Bolsa Impermeável De Armazenamento Para Drone Dji Neo(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2243-Cinza",
+        "标题": "Bolsa Impermeável De Armazenamento Para Drone Dji Neo(Cinza)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2242",
+        "标题": "Gabarito Para Círculos De Marcenaria Acessório De Máquina",
+        "货架位": null
+    },
+    {
+        "SKU": "A2024-Bege",
+        "标题": "Capa Antiderrapante Para Sofá Com Capa De Almofada 90x90cm(Bege)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2052-Roxa-Unico",
+        "标题": "Saia Feminina Em Camadas De Tule Babados Malha Longa(Roxa,Único)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2052-Verde-Unico",
+        "标题": "Saia Feminina Em Camadas De Tule Babados Malha Longa(Verde,Único)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2052-Bege-Unico",
+        "标题": "Saia Feminina Em Camadas De Tule Babados Malha Longa(Bege,Único)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2052-Rosa-Unico",
+        "标题": "Saia Feminina Em Camadas De Tule Babados Malha Longa(Rosa,Único)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2052-Caqui-Unico",
+        "标题": "Saia Feminina Em Camadas De Tule Babados Malha Longa(Cáqui,Único)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1985-30W",
+        "标题": "Refletor Solar 30w Led À Prova D'água C/controle Remoto(Único)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1985-1000W",
+        "标题": "Refletor Led Solar 1000w Holofote Com Placa Bateria à Prova Dágua/controle Remoto(Único)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2236",
+        "标题": "Conjunto De Pontas Magnéticas Para Chave De Fenda 6 Peças",
+        "货架位": null
+    },
+    {
+        "SKU": "A2017-4Pcs Branco Frio",
+        "标题": "Kit 4 Peças 120 Luzes Solares Led Para Jardim Para Natal(4Pcs Branco Frio)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2237-Animais-Preto",
+        "标题": "Coleira Infantil Anti-perda Com Mochila Guia De Segurança(Preto,Animais)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2237-Animais-Amarelo",
+        "标题": "Coleira Infantil Anti-perda Com Mochila Guia De Segurança(Amarelo,Animais)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2228",
+        "标题": "Espelho Retrovisor Para Asa Fixa De Motocicleta Universal",
+        "货架位": null
+    },
+    {
+        "SKU": "A2227",
+        "标题": "Colete Refletivo P/ Corrida, Ciclismo E Atividades Esportiva",
+        "货架位": null
+    },
+    {
+        "SKU": "A2238",
+        "标题": "Massageador De Cabeça E Pente Elétrico Multifuncional",
+        "货架位": null
+    },
+    {
+        "SKU": "A2003-Rosa 3 Pcs",
+        "标题": "Kit 3 Modeladores De Cabelo Sem Calor Acabamento Acetinado(Rosa)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2230-Verde-150cm+Peruca",
+        "标题": "Traje De Cosplay Nojo Crianças De Dentro Para Fora(Verde,150cm)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2230-Verde-140cm+Peruca",
+        "标题": "Traje De Cosplay Nojo Crianças De Dentro Para Fora(Verde,140cm)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2230-Verde-130cm+Peruca",
+        "标题": "Traje De Cosplay Nojo Crianças De Dentro Para Fora(Verde,130cm)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2230-Verde-120cm+Peruca",
+        "标题": "Traje De Cosplay Nojo Crianças De Dentro Para Fora(Verde,120cm)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2230-Verde-110cm+Peruca",
+        "标题": "Traje De Cosplay Nojo Crianças De Dentro Para Fora(Verde,110cm)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2230-Verde-100cm+Peruca",
+        "标题": "Traje De Cosplay Nojo Crianças De Dentro Para Fora(Verde,100cm)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2232-110V",
+        "标题": "Pistola De Solda Para Plástico Reparo Fácil Eficiente Carro(110V)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2232-220V",
+        "标题": "Pistola De Solda Para Plástico Reparo Fácil Eficiente Carro(220V)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2233",
+        "标题": "Brinquedo Interativo Jogo De Reflexo Catching Sticks",
+        "货架位": null
+    },
+    {
+        "SKU": "A2235-Cinza-Amarelo",
+        "标题": "Brinquedo Elétrico Interativo Recarregável Para Gatos(Cinza-Amarelo)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2235-Marrom-Branco",
+        "标题": "Brinquedo Elétrico Interativo Recarregável Para Gatos(Marrom-Branco)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2235-Azul-Branco",
+        "标题": "Brinquedo Elétrico Interativo Recarregável Para Gatos(Azul-Branco)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2229",
+        "标题": "Removedor Multifuncional De Pelos Para Animais De Estimação",
+        "货架位": null
+    },
+    {
+        "SKU": "A2231-Azul",
+        "标题": "Brinquedo Robô Para Cachorro Com Controle Remoto Infantil(Azul)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2234",
+        "标题": "Endoscópio Industrial 720° 4-way Câmera 6mm Com Tela Ips 5",
+        "货架位": null
+    },
+    {
+        "SKU": "A2022-220v",
+        "标题": "Máquina De Sobremesas Geladas Sorveteira De Frutas(Preto,220V)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2022-110v",
+        "标题": "Sorveteira De Frutas - Máquina De Sobremesas Geladas Novo",
+        "货架位": null
+    },
+    {
+        "SKU": "A1741-Preto",
+        "标题": "Kit 12 Flechas De Fibra De Vidro Practical Carbon Arrow(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1741-Roxo",
+        "标题": "Kit 12 Flechas De Fibra De Vidro Practical Carbon Arrow(Roxo)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1741-Azul",
+        "标题": "Kit 12 Flechas De Fibra De Vidro Practical Carbon Arrow(Azul)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2076-Preto-iPhone 16 Pro Max",
+        "标题": "Capinha De Couro Com Suporte Magnético P/ iPhone 14/15/16(iPhone 16 Pro Max,Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2076-Preto-iPhone 16 Plus",
+        "标题": "Capinha De Couro Com Suporte Magnético P/ iPhone 14/15/16(iPhone 16 Plus,Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2076-Preto-iPhone 16 Pro",
+        "标题": "Capinha De Couro Com Suporte Magnético P/ iPhone 14/15/16(iPhone 16 Pro,Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2076-Preto-iPhone 16",
+        "标题": "Capinha De Couro Com Suporte Magnético P/ iPhone 14/15/16(iPhone 16,Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2076-Preto-iPhone 15 Plus",
+        "标题": "Capinha De Couro Com Suporte Magnético P/ iPhone 14/15/16(iPhone 15 Plus,Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2075-iPhone 16 Plus",
+        "标题": "Capinha Antiqueda Suporte Rotativo 360° P/ iPhone 14 15 16(iPhone 16 Plus,Transparente)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2075-iPhone 15 Plus",
+        "标题": "Capinha Antiqueda Suporte Rotativo 360° P/ iPhone 14 15 16(iPhone 15 Plus,Transparente)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1246-Transparente+Colorido",
+        "标题": "Caixa Organizadora Porta Comprimido Remédio Semanal Triplo(Transparente+Colorido)",
+        "货架位": "11"
+    },
+    {
+        "SKU": "A1679-Azul Detalhes-Azul",
+        "标题": "Mochila Escolar À Prova D'água Para Astronauta Mochila Masculina E Feminina Para Estudantes De Grande Capacidade(Azul)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1679-Preto-Preto",
+        "标题": "Mochila Escolar À Prova D'água Para Astronauta Mochila Masculina E Feminina Para Estudantes De Grande Capacidade(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1520-2 Pecas",
+        "标题": "4 Peças Ventilador Repelente De Mosquitos Em Mesa Para Moscas / Refeitivos / Refeitivos Ao Ar Livre(2pcs)",
+        "货架位": "25"
+    },
+    {
+        "SKU": "CP0335 ZK-AS21 738L",
+        "标题": "Placa Amplificadora Bluetooth Zk-as21 2.1 220w + 220w + 350w",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0334-ZK-ST21 766L",
+        "标题": "Placa Amplificadora Digital Zk-st21 2.1 Canais 2*100w + 200w",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0330",
+        "标题": "Máscara Coreana Antirrugas Noturna Com Colágeno",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0333",
+        "标题": "Polimento De Vidro Em Pó P/ Polimento De Janelas Automotivo",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0332",
+        "标题": "Ferramenta 11 Em 1 Para Reparo De Ponta De Taco De Sinuca",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0331-Preto",
+        "标题": "Banda Magnética De Cobre Aexzr Para Saúde Da Próstata(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0336",
+        "标题": "Rádio Fm Mini Pocket 76-108 Mhz Recarregável Lavalier",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0338",
+        "标题": "Peças Do Veicular Anti-rastreamento Obd Gps Integrado",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0337",
+        "标题": "Equipamento De Treino Para Cabeça E Pescoço Cinto Ajustável",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0339",
+        "标题": "Aplicador De Protetor Solar Roll-on Fácil De Usar",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0340-Azul",
+        "标题": "Brinquedo Lançador De Corda Elétrico Divertido Para Crianças(Azul)",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0342-Branco",
+        "标题": "Mini Microscópio Chaveiro 60x Brinquedo Portátil P/ Crianças(Branco)",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0342-Azul",
+        "标题": "Mini Microscópio Chaveiro 60x Brinquedo Portátil P/ Crianças(Azul)",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0343",
+        "标题": "Ouhoe Botox Bee Venom Creme Removedor De Rugas",
+        "货架位": null
+    },
+    {
+        "SKU": "CP0341",
+        "标题": "Medidor De Qualidade Da Água 7 Em 1  Tds Salinidade E Ph",
+        "货架位": null
+    },
+    {
         "SKU": "A2224-Preto",
         "标题": "Bolsa De Malha Multifuncional Pendurada De Grande Capacidade(Preto)",
         "货架位": null
@@ -32,22 +457,22 @@
     {
         "SKU": "A1507-Marrom lobo",
         "标题": "Pochete Bolsa Mochila Impermeável Para Pesca Novo(Marrom lobo)",
-        "货架位": null
+        "货架位": "013"
     },
     {
         "SKU": "A1921-Preto",
         "标题": "Mini Massageador De Corpo Inteiro 10 Velocidades Novo(Preto,110V/220V)",
-        "货架位": null
+        "货架位": "19"
     },
     {
         "SKU": "A1921-Prateado",
         "标题": "Mini Massageador De Corpo Inteiro 10 Velocidades Novo(Prateado,110V/220V)",
-        "货架位": null
+        "货架位": "19"
     },
     {
         "SKU": "A1853-Preto",
         "标题": "Adesivo Anti-arranhões Para Móveis Para Gatos 200x40cm(Preto)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A2205-Prateado+Dourado",
@@ -65,23 +490,8 @@
         "货架位": null
     },
     {
-        "SKU": "A1679-Azul Detalhes-Azul",
-        "标题": "Mochila Escolar À Prova D'água Para Astronauta Mochila Masculina E Feminina Para Estudantes De Grande Capacidade(Azul)",
-        "货架位": null
-    },
-    {
-        "SKU": "A1679-Preto-Preto",
-        "标题": "Mochila Escolar À Prova D'água Para Astronauta Mochila Masculina E Feminina Para Estudantes De Grande Capacidade(Preto)",
-        "货架位": null
-    },
-    {
         "SKU": "18097804317-Preto",
         "标题": "À Prova D'água Mochila Para Crianças Escolar Astronauta Alunos Do Ensino Fundamental Proteção Da Coluna ortopédica(Preto)",
-        "货架位": null
-    },
-    {
-        "SKU": "18097804317-Rosa",
-        "标题": "À Prova D'água Mochila Para Crianças Escolar Astronauta Alunos Do Ensino Fundamental Proteção Da Coluna ortopédica(Rosa)",
         "货架位": null
     },
     {
@@ -532,7 +942,7 @@
     {
         "SKU": "A1728-Cinza",
         "标题": "Perfurador De Papel Portátil Sem Esforço 10 Furos P/ Pastas(Cinza)",
-        "货架位": "022"
+        "货架位": "021"
     },
     {
         "SKU": "A1734-Lente Prateado",
@@ -1617,12 +2027,12 @@
     {
         "SKU": "A1679-Azul Detalhes",
         "标题": "Mochila Ortopédica Infantil Astronauta Impermeável Novo(Azul)",
-        "货架位": "14"
+        "货架位": "45"
     },
     {
         "SKU": "A1679-Azul Liso",
         "标题": "Mochila Ortopédica Infantil Astronauta Impermeável Novo(Azul Liso)",
-        "货架位": "14"
+        "货架位": "45"
     },
     {
         "SKU": "A1894-Cinza",
@@ -2452,22 +2862,22 @@
     {
         "SKU": "A2004-Preto+Cinza-XXL",
         "标题": "Kit 2 Shorts Masculinos De Treino De Musculação E Corrida(Preto+Cinza,XXL)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A2004-Preto+Cinza-XL",
         "标题": "Kit 2 Shorts Masculinos De Treino De Musculação E Corrida(Preto+Cinza,XL)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A2004-Preto+Cinza-L",
         "标题": "Kit 2 Shorts Masculinos De Treino De Musculação E Corrida(Preto+Cinza,L)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A2004-Preto+Cinza-M",
         "标题": "Kit 2 Shorts Masculinos De Treino De Musculação E Corrida(Preto+Cinza,M)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A2007",
@@ -2552,11 +2962,6 @@
     {
         "SKU": "A2030",
         "标题": "Novo Alceador Grampeador Uva Tomate Ramos + Fita + Grampos",
-        "货架位": null
-    },
-    {
-        "SKU": "A2022",
-        "标题": "Máquina De Sobremesas Geladas Sorveteira De Frutas",
         "货架位": null
     },
     {
@@ -2825,19 +3230,9 @@
         "货架位": null
     },
     {
-        "SKU": "A1985",
-        "标题": "Refletor Solar Led À Prova D'água 1000w C/controle Remoto",
-        "货架位": null
-    },
-    {
         "SKU": "A1369-1 Pecas",
         "标题": "60cm Acessibilidade Segurança Idoso Banheiro Box Parede Corrimão Suporte Anti Queda  Maçaneta Da Porta De Vidro(Prateado-1 Peças)",
         "货架位": "05"
-    },
-    {
-        "SKU": "A1838-3pcs",
-        "标题": "3×30ml De Spray De Peido Líquido Fedorento Prank Toys Extra Forte（entrega rápida）(3pcs)",
-        "货架位": null
     },
     {
         "SKU": "A1218-Modelo2-2pcs",
@@ -2932,7 +3327,7 @@
     {
         "SKU": "A1103-Marrom-Claro",
         "标题": "Bolsa Canguru Carregador Ergonômico Para Bebê Wrap Slings(Marrom-claro)",
-        "货架位": null
+        "货架位": "044"
     },
     {
         "SKU": "A1103-Azul-claro",
@@ -3327,7 +3722,7 @@
     {
         "SKU": "A1840-4GB/64GB",
         "标题": "Tvbox 98 Android 13.0 4gb/64gb Hd 8k Wifi Pronta Entrega",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A1940-Azul",
@@ -3532,7 +3927,7 @@
     {
         "SKU": "A1925",
         "标题": "Caneta Clareadora Limpa Para Cuidados Os Dentes P/ Cachorro",
-        "货架位": "015"
+        "货架位": "19"
     },
     {
         "SKU": "A1924",
@@ -3717,42 +4112,42 @@
     {
         "SKU": "A1919-Branco-P/S",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Branco,P/S)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1919-Branco-GG/XL",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Branco,GG/XL)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1919-Branco-G/L",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Branco,G/L)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1919-Preto-P/S",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Preto,P/S)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1919-Preto-GG/XL",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Preto,GG/XL)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1919-Preto-G/L",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Preto,G/L)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1919-Preto-M",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Preto,M)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1919-Branco-M",
         "标题": "Amiseta Íntima De Compressão Peitoral W Tops Chest Binder(Branco,M)",
-        "货架位": null
+        "货架位": "42"
     },
     {
         "SKU": "A1916-3 Pcs Nude-XG/XXL",
@@ -3887,7 +4282,7 @@
     {
         "SKU": "A1906",
         "标题": "Kit 13 Pcs Alicate Inox De Cortar Unhas Profissional",
-        "货架位": null
+        "货架位": "21"
     },
     {
         "SKU": "A1905",
@@ -3907,7 +4302,7 @@
     {
         "SKU": "A1901",
         "标题": "Cama De Avião Inflável De Viagem Para Bebês Infantil",
-        "货架位": null
+        "货架位": "00013"
     },
     {
         "SKU": "A1899",
@@ -3977,12 +4372,12 @@
     {
         "SKU": "A1892",
         "标题": "Transmissor Receptor V6 Sem Fio Para Guitarra Baixo Violão",
-        "货架位": null
+        "货架位": "19"
     },
     {
         "SKU": "A1891",
         "标题": "Cadeado Temporizador Multifuncional Metal Timer Lock Novo",
-        "货架位": null
+        "货架位": "015"
     },
     {
         "SKU": "23071903-05mm",
@@ -4167,7 +4562,7 @@
     {
         "SKU": "A1881",
         "标题": "Suporte Estojo Couro P/ Óculos Do Carro Magnético Universal",
-        "货架位": null
+        "货架位": "018"
     },
     {
         "SKU": "A1887",
@@ -4242,7 +4637,7 @@
     {
         "SKU": "A1876",
         "标题": "Dispenser De Sabão Shampoo Condcionado De Parede Multiuso",
-        "货架位": null
+        "货架位": "32"
     },
     {
         "SKU": "A1877",
@@ -4352,17 +4747,17 @@
     {
         "SKU": "A1870-Preto",
         "标题": "Almofada De Viagem De Avião Apoio De Cabeça / Pescoço(Preto)",
-        "货架位": null
+        "货架位": "013"
     },
     {
         "SKU": "A1870-Cinza",
         "标题": "Almofada De Viagem De Avião Apoio De Cabeça / Pescoço(Cinza)",
-        "货架位": null
+        "货架位": "013"
     },
     {
         "SKU": "A1856",
         "标题": "Fascite Plantar Com Correia De Estiramento De Pés Elástica",
-        "货架位": null
+        "货架位": "020"
     },
     {
         "SKU": "TT002",
@@ -4422,22 +4817,22 @@
     {
         "SKU": "A1867",
         "标题": "Amplificador De Áudio Hifi De 4 Canais Bluetooth Usb Sd Aux",
-        "货架位": null
+        "货架位": "034"
     },
     {
         "SKU": "A1853-Cinza",
         "标题": "Adesivo Anti-arranhões Para Móveis Para Gatos 200x40cm(Cinza)",
-        "货架位": "019"
+        "货架位": "027"
     },
     {
         "SKU": "A1853-Marrom",
         "标题": "Adesivo Anti-arranhões Para Móveis Para Gatos 200x40cm(Marrom)",
-        "货架位": "019"
+        "货架位": "027"
     },
     {
         "SKU": "A1864",
         "标题": "Inversor De Energia Para Carro 12v 24v A 110v 220v 1500w",
-        "货架位": null
+        "货架位": "40"
     },
     {
         "SKU": "A1850-Roxo",
@@ -4522,27 +4917,27 @@
     {
         "SKU": "A1349-Branco-Unico",
         "标题": "Boina Estilo Francesa Feminina Quepe Feminino(Branco,Único)",
-        "货架位": null
+        "货架位": "46"
     },
     {
         "SKU": "A1349-Cinza-Unico",
         "标题": "Boina Estilo Francesa Feminina Quepe Feminino(Cinza,Único)",
-        "货架位": null
+        "货架位": "46"
     },
     {
         "SKU": "A1349-Caqui-Unico",
         "标题": "Boina Estilo Francesa Feminina Quepe Feminino(Cáqui,Único)",
-        "货架位": null
+        "货架位": "46"
     },
     {
         "SKU": "A1349-Preto-Unico",
         "标题": "Boina Estilo Francesa Feminina Quepe Feminino(Preto,Único)",
-        "货架位": null
+        "货架位": "46"
     },
     {
         "SKU": "A1847",
         "标题": "Mount Único Absorção Impacto De Luneta 11 Mm",
-        "货架位": null
+        "货架位": "31"
     },
     {
         "SKU": "A1846-Halloween Roxo",
@@ -4587,7 +4982,7 @@
     {
         "SKU": "A1827-Salmao",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço2 Cor Azul",
-        "货架位": "29"
+        "货架位": "0020"
     },
     {
         "SKU": "A1157-Rosa",
@@ -4622,7 +5017,7 @@
     {
         "SKU": "A1840-4GB/32GB",
         "标题": "Tvbox 98 Android 13.0 4gb/32gb Hd 8k Wifi Pronta Entrega",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A1841-Branco-Robo 13",
@@ -4677,7 +5072,7 @@
     {
         "SKU": "A1790-12 Pcs",
         "标题": "Kit 12 Peças Universal De Furadeira Indestrutível Perfura",
-        "货架位": null
+        "货架位": "19"
     },
     {
         "SKU": "A1057-12v-220v",
@@ -4767,12 +5162,12 @@
     {
         "SKU": "A1139-Caqui",
         "标题": "Mini Bolsa De Ombro Lateral Respirável E Impermeável iBoa Presentes(Cáqui)",
-        "货架位": null
+        "货架位": "0044"
     },
     {
         "SKU": "A1139-Rosa",
         "标题": "Mini Bolsa De Ombro Lateral Respirável E Impermeável iBoa Presentes(Rosa)",
-        "货架位": null
+        "货架位": "0044"
     },
     {
         "SKU": "A1736-145mm Preto",
@@ -4832,42 +5227,42 @@
     {
         "SKU": "A1533-Vinho-16",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(16 \",Vinho)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1533-Vinho-14",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(14 \",Vinho)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1533-Azul-escuro-16",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(16 \",Azul-escuro)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1533-Azul-escuro-14",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(14 \",Azul-escuro)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1533-Marrom-16",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(16 \",Marrom)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1533-Marrom-14",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(14 \",Marrom)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1533-Cinza-16",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(16 \",Cinza)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1533-Cinza-14",
         "标题": "Capa Case Macbook Notebook Multifuncional 13/14 15/15.6 Base(14 \",Cinza)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1524-Marrom-claro-M",
@@ -4902,7 +5297,7 @@
     {
         "SKU": "A1086-Vermelho",
         "标题": "Mochila Resistente De Lona Executiva Casual Viagem Notebook(Vermelho)",
-        "货架位": "013"
+        "货架位": "38"
     },
     {
         "SKU": "A1566-3m 8Varetas Bege",
@@ -5017,7 +5412,7 @@
     {
         "SKU": "A1802-100Pcs",
         "标题": "100 Pcs Escovas Limpeza Cabeça De Chuveiro Pequeno Orifício",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1785",
@@ -5027,7 +5422,7 @@
     {
         "SKU": "A1802-10Pcs",
         "标题": "10 Pcs Escovas Limpeza Cabeça De Chuveiro Pequeno Orifício",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1806",
@@ -5042,12 +5437,12 @@
     {
         "SKU": "A1796",
         "标题": "Alicate Repuxador Milimétrico Com18 Peças Ventosas",
-        "货架位": null
+        "货架位": "30"
     },
     {
         "SKU": "A1788",
         "标题": "Suporte De Cabide Tábua De Passar Para Vaporizador De Roupa",
-        "货架位": null
+        "货架位": "018"
     },
     {
         "SKU": "A1800-Branco",
@@ -5067,7 +5462,7 @@
     {
         "SKU": "A1789",
         "标题": "Kit De Miçangas Completo Para Confecção De Joias E Pulseiras",
-        "货架位": null
+        "货架位": "12"
     },
     {
         "SKU": "A1814",
@@ -5077,12 +5472,12 @@
     {
         "SKU": "A1830-400/1000+3000/8000",
         "标题": "Kit Pedra Afiar Amolar Dupla Face 400/1000+3000/8000 Faca(400/1000+3000/8000)",
-        "货架位": null
+        "货架位": "09"
     },
     {
         "SKU": "A1784",
         "标题": "Blocos De Construção Buquê Flores De Ícones 608pcs Orquídea",
-        "货架位": null
+        "货架位": "0020"
     },
     {
         "SKU": "A1803",
@@ -5097,7 +5492,7 @@
     {
         "SKU": "A1782",
         "标题": "Chuveiro De Mão Alta Pressão Com Suporte Sem Furadeira",
-        "货架位": "5-2-7"
+        "货架位": "0020"
     },
     {
         "SKU": "A1791",
@@ -5237,32 +5632,32 @@
     {
         "SKU": "A1827-Azul-claro",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Azul-claro)",
-        "货架位": "29"
+        "货架位": "0020"
     },
     {
         "SKU": "A1827-Roxo",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Roxo)",
-        "货架位": "29"
+        "货架位": "0020"
     },
     {
         "SKU": "A1827-Verde",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Verde)",
-        "货架位": "29"
+        "货架位": "0020"
     },
     {
         "SKU": "A1827-Preto",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Preto)",
-        "货架位": "29"
+        "货架位": "0020"
     },
     {
         "SKU": "A1827-Cinza",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Cinza)",
-        "货架位": "29"
+        "货架位": "0020"
     },
     {
         "SKU": "A1827-Azul",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Azul)",
-        "货架位": "29"
+        "货架位": "0020"
     },
     {
         "SKU": "A1826-Colorido",
@@ -5322,7 +5717,7 @@
     {
         "SKU": "A1724",
         "标题": "O Reconhecimento Automático Caneta Multim Inteligente Novo",
-        "货架位": null
+        "货架位": "032"
     },
     {
         "SKU": "A1779-100 Pcs",
@@ -5332,7 +5727,7 @@
     {
         "SKU": "A1731-Amarelo",
         "标题": "Kit 26 Peças Detalhamento De Carros De Lavagem(Amarelo)",
-        "货架位": null
+        "货架位": "030"
     },
     {
         "SKU": "A1753-30 Pcs",
@@ -5362,42 +5757,42 @@
     {
         "SKU": "A1750-Preto-GG/XL",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Preto,GG/XL)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1750-Preto-G/L",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Preto,G/L)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1750-Preto-M",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Preto,M)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1750-Preto-P/S",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Preto,P/S)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1750-Nude-GG/XL",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Nude,GG/XL)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1750-Nude-G/L",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Nude,G/L)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1750-Nude-M",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Nude,M)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1750-Nude-P/S",
         "标题": "Sutiã Feminino Invisível Com Botão Frontal Confortável(Nude,P/S)",
-        "货架位": null
+        "货架位": "00032"
     },
     {
         "SKU": "A1765-103C",
@@ -5417,12 +5812,12 @@
     {
         "SKU": "A1729",
         "标题": "Protetor De Lente Original Para Insta 360 One X3 Lens Guard",
-        "货架位": null
+        "货架位": "020"
     },
     {
         "SKU": "A1728-Azul",
         "标题": "Perfurador De Papel Portátil Sem Esforço 10 Furos Para Pasta(Azul)",
-        "货架位": "022"
+        "货架位": "021"
     },
     {
         "SKU": "A1757-2-Preto",
@@ -5522,7 +5917,7 @@
     {
         "SKU": "A1817",
         "标题": "Óculos Anti Enjôo Anti Tontura Para Adulto E Crianças",
-        "货架位": null
+        "货架位": "0020"
     },
     {
         "SKU": "A1807-Roxa",
@@ -5567,7 +5962,7 @@
     {
         "SKU": "A1777-Preto",
         "标题": "Mochila Ombro Feminina Altíssima Qualidade Maravilhosa(Preto)",
-        "货架位": "44"
+        "货架位": "021"
     },
     {
         "SKU": "A1754-Preto",
@@ -5617,7 +6012,7 @@
     {
         "SKU": "A1770-Preto",
         "标题": "Luvas Isolantes Para Eletricistas Que Suportam Tensão 400v(Preto)",
-        "货架位": "03"
+        "货架位": "19"
     },
     {
         "SKU": "A1772",
@@ -5662,17 +6057,17 @@
     {
         "SKU": "A1746-Rosa",
         "标题": "Bolsa De Transporte Conversível 2 Em 1 Para Roupas De Viagem(Rosa)",
-        "货架位": "034"
+        "货架位": "030"
     },
     {
         "SKU": "A1746-Bege",
         "标题": "Bolsa De Transporte Conversível 2 Em 1 Para Roupas De Viagem(Bege)",
-        "货架位": "30"
+        "货架位": "030"
     },
     {
         "SKU": "A1746-Preto",
         "标题": "Bolsa De Transporte Conversível 2 Em 1 Para Roupas De Viagem(Preto)",
-        "货架位": "30"
+        "货架位": "030"
     },
     {
         "SKU": "A1780-Cafe",
@@ -5817,7 +6212,7 @@
     {
         "SKU": "A1740-Azul",
         "标题": "Mini Testador Termometro Anemômetro Medidor Vento Umidade(Azul)",
-        "货架位": null
+        "货架位": "32"
     },
     {
         "SKU": "A1748",
@@ -5827,7 +6222,7 @@
     {
         "SKU": "A1722",
         "标题": "Aparelho Para Massagem Facial Efeito Lift Tratamento Estétic(110V/220V)",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A1745",
@@ -5872,12 +6267,12 @@
     {
         "SKU": "A1769",
         "标题": "Jogo Sextavado Soquete 1/2 Com Catraca 12 Pcs E Extensão",
-        "货架位": null
+        "货架位": "03"
     },
     {
         "SKU": "A1739-110V",
         "标题": "Laminadora E Plastificadora Máquina De Laminação De Fotos A4(110V)",
-        "货架位": "19"
+        "货架位": "022"
     },
     {
         "SKU": "A1739-220V",
@@ -5897,12 +6292,12 @@
     {
         "SKU": "A1115-1 peca",
         "标题": "Kit Pedras Dupla De Afiar Amolar Rotativa P/ Furadeira(1 peça)",
-        "货架位": "5-3-6"
+        "货架位": "32"
     },
     {
         "SKU": "A1706",
         "标题": "Carregador Por Indução Magsafe 22w De Mesa 3em1 Sem Fio",
-        "货架位": null
+        "货架位": "27"
     },
     {
         "SKU": "A1707",
@@ -5912,7 +6307,7 @@
     {
         "SKU": "A1713",
         "标题": "Nível Laser 8 Linhas 3d Verde Recarregável Auto Nivelamento",
-        "货架位": "028"
+        "货架位": "0020"
     },
     {
         "SKU": "A1701",
@@ -6412,17 +6807,17 @@
     {
         "SKU": "A1681-Preto",
         "标题": "Kit 3 Mochila Escolar Padrão Margarida Impermeável Novo(Preto)",
-        "货架位": "06"
+        "货架位": "0013"
     },
     {
         "SKU": "A1681-Rosa",
         "标题": "Kit 3 Mochila Escolar Padrão Margarida Impermeável Novo(Rosa)",
-        "货架位": "06"
+        "货架位": "0013"
     },
     {
         "SKU": "A1681-Cinza",
         "标题": "Kit 3 Mochila Escolar Padrão Margarida Impermeável Novo(Cinza)",
-        "货架位": "06"
+        "货架位": "0013"
     },
     {
         "SKU": "A1670-Marrom",
@@ -6447,17 +6842,17 @@
     {
         "SKU": "A1680-Rosa+Lancheira",
         "标题": "Mochila Com Detalhes De Flores E Lancheira Pronta Entrega !(Rosa)",
-        "货架位": "14"
+        "货架位": "044"
     },
     {
         "SKU": "A1679-Preto",
         "标题": "Mochila Ortopédica Infantil Astronauta Impermeável 45cm(Preto)",
-        "货架位": "14"
+        "货架位": "45"
     },
     {
         "SKU": "A1679-Rosa",
         "标题": "Mochila Ortopédica Infantil Astronauta Impermeável 45cm(Rosa)",
-        "货架位": "14"
+        "货架位": "45"
     },
     {
         "SKU": "A1664",
@@ -6467,22 +6862,22 @@
     {
         "SKU": "A1667",
         "标题": "Kit 300 Peças Fusivel Lamina Mini Sortidos Automotivo",
-        "货架位": "5-1-7"
+        "货架位": "09"
     },
     {
         "SKU": "A1650-Preto",
         "标题": "Suporte De Alumínio Para Leitura / Notebook / Livros /tablet(Preto)",
-        "货架位": "32"
+        "货架位": "38"
     },
     {
         "SKU": "A1650-Branco",
         "标题": "Suporte De Alumínio Para Leitura / Notebook / Livros /tablet(Branco)",
-        "货架位": "32"
+        "货架位": "38"
     },
     {
         "SKU": "A1676",
         "标题": "Kit Com 6 Repelentes Eletrônicos Afasta Mosquito Moscas Rato",
-        "货架位": "17"
+        "货架位": "20"
     },
     {
         "SKU": "A1651-Preto",
@@ -6787,7 +7182,7 @@
     {
         "SKU": "A1630",
         "标题": "Gerador De Ozônio Portátil Purificador De Ar",
-        "货架位": "021"
+        "货架位": "09"
     },
     {
         "SKU": "A1433-Beige",
@@ -6802,7 +7197,7 @@
     {
         "SKU": "A1620",
         "标题": "Kit 6 Repelente Espanta Cobra Escorpião Solar Ultrassônico",
-        "货架位": "32"
+        "货架位": "40"
     },
     {
         "SKU": "A1622",
@@ -6827,7 +7222,7 @@
     {
         "SKU": "A1621",
         "标题": "Estojo Case Térmico Viagem Saxenda Victoza Insulina Ozempic Térmica",
-        "货架位": "15"
+        "货架位": "09"
     },
     {
         "SKU": "A1626",
@@ -7357,7 +7752,7 @@
     {
         "SKU": "A1086-Bege",
         "标题": "Mochila Resistente De Lona Executiva Casual Viagem Notebook(Bege)",
-        "货架位": "013"
+        "货架位": "38"
     },
     {
         "SKU": "A1562",
@@ -7472,7 +7867,7 @@
     {
         "SKU": "A1541",
         "标题": "4 Pes De Luz De Advertência Led Anti-colisão Controle Remoto",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1545-7 Pecas",
@@ -7482,7 +7877,7 @@
     {
         "SKU": "A1533-Preto-16",
         "标题": "Capa Case Macbook Air M1 / M2 Notebook Multifuncional 13/14 15/15.6 Base(16 \",Preto)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1537-Preto",
@@ -7502,7 +7897,7 @@
     {
         "SKU": "A1533-Preto-14",
         "标题": "Capa Case Base Para Macbook Notebook 13 A 16 Polegadas(14 \",Preto)",
-        "货架位": null
+        "货架位": "027"
     },
     {
         "SKU": "A1528-Azul",
@@ -7652,7 +8047,7 @@
     {
         "SKU": "A1544",
         "标题": "Chave Torquímetro Ajustável 180° Com 10 Catracas Inglesa",
-        "货架位": "04"
+        "货架位": "015"
     },
     {
         "SKU": "A1546",
@@ -7682,7 +8077,7 @@
     {
         "SKU": "A1550",
         "标题": "Bomba De Transferência De Combustível 12v 38mm 21kw",
-        "货架位": null
+        "货架位": "27"
     },
     {
         "SKU": "A1543",
@@ -7787,7 +8182,7 @@
     {
         "SKU": "A1516",
         "标题": "Jogo Conjunto De Xadrez Magnético Ótimo Presente De Crianças",
-        "货架位": null
+        "货架位": "034"
     },
     {
         "SKU": "A1524-Bege-M",
@@ -7812,7 +8207,7 @@
     {
         "SKU": "A1520",
         "标题": "4 Peças Ventilador Armadilha Espanta Mosquitos Para Cozinha",
-        "货架位": "15"
+        "货架位": "25"
     },
     {
         "SKU": "A1511",
@@ -7822,7 +8217,7 @@
     {
         "SKU": "A1277-Bege-Unico",
         "标题": "Saia Feminina Confortável Tutu De Tule Plissada Dupla Camada(Bege,Único)",
-        "货架位": "27"
+        "货架位": "45"
     },
     {
         "SKU": "A1513",
@@ -8057,7 +8452,7 @@
     {
         "SKU": "A1147-Preto com espelho",
         "标题": "Maleta Maquiagem Bijuteria Porta Divisória Ajustável\\espelho(Preto com espelho)",
-        "货架位": "4-3-2"
+        "货架位": "06"
     },
     {
         "SKU": "A1494",
@@ -8167,12 +8562,12 @@
     {
         "SKU": "A1487-Rosa",
         "标题": "Barraca De Praia Infantil Com Proteção Solar Para Piscina(Rosa)",
-        "货架位": "13"
+        "货架位": "27"
     },
     {
         "SKU": "A1487-Azul",
         "标题": "Barraca De Praia Infantil Com Proteção Solar Para Piscina(Azul)",
-        "货架位": "13"
+        "货架位": "27"
     },
     {
         "SKU": "A1253-1",
@@ -8272,7 +8667,7 @@
     {
         "SKU": "A1464",
         "标题": "Alfabeto Resina Silicone Forma Molde Epóxi Chaveiro 308 Pcs",
-        "货架位": "19"
+        "货架位": "14"
     },
     {
         "SKU": "A1478",
@@ -8382,7 +8777,7 @@
     {
         "SKU": "A1463-Prateado",
         "标题": "Chaleira Bule 650 Ml Bico Ganso Gooseneck Café Coado(Prateado)",
-        "货架位": "5-1-2"
+        "货架位": "015"
     },
     {
         "SKU": "A1416-Pink",
@@ -8477,7 +8872,7 @@
     {
         "SKU": "A1452",
         "标题": "Estéreo Placa Amplificador 2.1 Bluetooth 100w Rms Zk-mt21",
-        "货架位": "0028"
+        "货架位": "17"
     },
     {
         "SKU": "A1454-HYALU B5",
@@ -8537,7 +8932,7 @@
     {
         "SKU": "A1299-3 Pcs-Preto",
         "标题": "3pcs Pente Funil Pra Mechas Luzes Tintura Cabeleireiro Salão(Preto)",
-        "货架位": "4-3-3"
+        "货架位": "18"
     },
     {
         "SKU": "A1299-Black+Blue+Pink",
@@ -9217,7 +9612,7 @@
     {
         "SKU": "A1041-Cinza",
         "标题": "Mochila Bolsa Térmica Grande 30l Piquenique Acampamento(Cinza)",
-        "货架位": "40"
+        "货架位": "045"
     },
     {
         "SKU": "A1370",
@@ -9377,12 +9772,12 @@
     {
         "SKU": "A1342-Preto",
         "标题": "Kit 100 Pçs Prendedor Organizador De Cabos Fios Com Adesivo(Preto)",
-        "货架位": null
+        "货架位": "020"
     },
     {
         "SKU": "A1342-Branco",
         "标题": "Kit 100 Pçs Prendedor Organizador De Cabos Fios Com Adesivo(Branco)",
-        "货架位": null
+        "货架位": "020"
     },
     {
         "SKU": "A1344-Preto",
@@ -9392,12 +9787,12 @@
     {
         "SKU": "A1345-Marrom-escuro",
         "标题": "Carteira Couro Com Corrente Masculina Feminina Anti-roubo(Marrom-escuro)",
-        "货架位": null
+        "货架位": "11"
     },
     {
         "SKU": "A1345-Preto",
         "标题": "Carteira Couro Com Corrente Masculina Feminina Porta Moeda(Preto)",
-        "货架位": null
+        "货架位": "11"
     },
     {
         "SKU": "A1346",
@@ -9437,7 +9832,7 @@
     {
         "SKU": "A1355",
         "标题": "Ferramenta Hidráulica De Remoção De Amortecedor Desmontagem",
-        "货架位": null
+        "货架位": "00000003"
     },
     {
         "SKU": "A1356-Preto-GG/XG(XL/XXL)",
@@ -9577,7 +9972,7 @@
     {
         "SKU": "A1312",
         "标题": "Cápsula Laser 9mm P Treinamento A Seco Tiro Esportivo E Caça",
-        "货架位": null
+        "货架位": "020"
     },
     {
         "SKU": "A1313-Preto",
@@ -9667,7 +10062,7 @@
     {
         "SKU": "A1309-24Flores+24Clipes",
         "标题": "24 Peças Flores Artificiais De Natal Com Clipes(24Flores+24Clipes)",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A1307",
@@ -9702,7 +10097,7 @@
     {
         "SKU": "A1305",
         "标题": "Kpop Stray Kids Skz 220 Photocard Fotográfico Coleção Cartão",
-        "货架位": null
+        "货架位": "06"
     },
     {
         "SKU": "A1301-Colorido",
@@ -9717,7 +10112,7 @@
     {
         "SKU": "A1303-Preto",
         "标题": "Carregador Sem Fio Suporte Carro De Celular Indução Com Ima(Preto)",
-        "货架位": null
+        "货架位": "32"
     },
     {
         "SKU": "A1304-Roxo",
@@ -9862,7 +10257,7 @@
     {
         "SKU": "A1062-Prateado",
         "标题": "Suporte Magnético P/ iPhone Android Notebook Monitor Magsafe(Prateado)",
-        "货架位": null
+        "货架位": "19"
     },
     {
         "SKU": "A1281- Modelo6",
@@ -10052,17 +10447,17 @@
     {
         "SKU": "A1277-Preto-Unico",
         "标题": "Saia Feminina Confortável Tutu De Tule Plissada 2 Camadas(Preto,Único)",
-        "货架位": "27"
+        "货架位": "45"
     },
     {
         "SKU": "A1277-Rosa-Unico",
         "标题": "Saia Feminina Confortável Tutu De Tule Plissada 2 Camadas(Rosa,Único)",
-        "货架位": "27"
+        "货架位": "45"
     },
     {
         "SKU": "A1277-Cinza-Unico",
         "标题": "Saia Feminina Confortável Tutu De Tule Plissada 2 Camadas(Cinza,Único)",
-        "货架位": "27"
+        "货架位": "45"
     },
     {
         "SKU": "A1275-Preto",
@@ -10152,7 +10547,7 @@
     {
         "SKU": "A1270",
         "标题": "Kit 5 Lixas Diamantada Polir Mármore 1 Suporte Grão 100-1500",
-        "货架位": null
+        "货架位": "018"
     },
     {
         "SKU": "A1239",
@@ -10192,7 +10587,7 @@
     {
         "SKU": "A1264",
         "标题": "Rede De Futebol Gol Dobrável Duplo Para Infantil Portátil",
-        "货架位": "38"
+        "货架位": "29"
     },
     {
         "SKU": "A1221",
@@ -10202,7 +10597,7 @@
     {
         "SKU": "A1233-400/1000",
         "标题": "Kit Pedra Afiar Amolar Dupla Face Granulação 400 1000 Faca(400/1000)",
-        "货架位": "020"
+        "货架位": "14"
     },
     {
         "SKU": "A1267-Rosa",
@@ -10217,7 +10612,7 @@
     {
         "SKU": "A1226",
         "标题": "Jogo Chave Combinada Catraca Articulada 6 Peças 08 A 17mm",
-        "货架位": "017"
+        "货架位": "003"
     },
     {
         "SKU": "A1235-Azul",
@@ -10277,17 +10672,17 @@
     {
         "SKU": "A1268-Preto",
         "标题": "2pcs Puxador De Porta Auto-adesivo Liga De Alumínio 200mm(Preto)",
-        "货架位": null
+        "货架位": "14"
     },
     {
         "SKU": "A1268-Prateado",
         "标题": "2pcs Puxador De Porta Auto-adesivo Liga De Alumínio 200mm(Prateado)",
-        "货架位": null
+        "货架位": "14"
     },
     {
         "SKU": "A1268-Dourado",
         "标题": "2pcs Puxador De Porta Auto-adesivo Liga De Alumínio 200mm(Dourado)",
-        "货架位": null
+        "货架位": "14"
     },
     {
         "SKU": "A1241",
@@ -10297,7 +10692,7 @@
     {
         "SKU": "A1219",
         "标题": "Defletor Ar Condicionado Split Tamanho Ajustável 58-95 Cm",
-        "货架位": "03"
+        "货架位": "034"
     },
     {
         "SKU": "A1220",
@@ -10522,7 +10917,7 @@
     {
         "SKU": "A1209-Preto",
         "标题": "Fechadura Trava De Porta Para Viagem Segurança Hotel Casa(Preto)",
-        "货架位": null
+        "货架位": "14"
     },
     {
         "SKU": "A1208-Verde",
@@ -10612,7 +11007,7 @@
     {
         "SKU": "A1213",
         "标题": "Blocos De Construção Tetra Jogo Empilhe Infantil Brinquedo",
-        "货架位": "31"
+        "货架位": "14"
     },
     {
         "SKU": "A1203",
@@ -11217,27 +11612,27 @@
     {
         "SKU": "A1123-Preto-46(190)",
         "标题": "Calça Combat Masculina Tática Militar Ripstop Com Cinto(Preto,46(190))",
-        "货架位": "19"
+        "货架位": "017"
     },
     {
         "SKU": "A1123-Preto-44(185)",
         "标题": "Calça Combat Masculina Tática Militar Ripstop Com Cinto(Preto,44(185))",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1123-Preto-42(180)",
         "标题": "Calça Combat Masculina Tática Militar Ripstop Com Cinto(Preto,42(180))",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1123-Preto-40(175)",
         "标题": "Calça Combat Masculina Tática Militar Ripstop Com Cinto(Preto,40(175))",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1123-Preto-38(170)",
         "标题": "Calça Combat Masculina Tática Militar Ripstop Com Cinto(Preto,38(170))",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1174",
@@ -11332,22 +11727,22 @@
     {
         "SKU": "A1086-Verde",
         "标题": "Mochila Resistente De Lona Executiva Casual Viagem Notebook(Verde)",
-        "货架位": "013"
+        "货架位": "38"
     },
     {
         "SKU": "A1086-Preto",
         "标题": "Mochila Resistente De Lona Executiva Casual Viagem Notebook(Preto)",
-        "货架位": "013"
+        "货架位": "38"
     },
     {
         "SKU": "A1086-Marrom",
         "标题": "Mochila Resistente De Lona Executiva Casual Viagem Notebook(Marrom)",
-        "货架位": "013"
+        "货架位": "38"
     },
     {
         "SKU": "A1086-Azul",
         "标题": "Mochila Resistente De Lona Executiva Casual Viagem Notebook(Azul)",
-        "货架位": "013"
+        "货架位": "38"
     },
     {
         "SKU": "A1167-15.6 -Preto",
@@ -11402,7 +11797,7 @@
     {
         "SKU": "A1147-Preto",
         "标题": "Maleta Maquiagem Bijuteria Porta Divisória Ajustável(Preto)",
-        "货架位": "4-3-2"
+        "货架位": "06"
     },
     {
         "SKU": "A1085-Preto",
@@ -11652,12 +12047,12 @@
     {
         "SKU": "A1150-Modelo3",
         "标题": "Kit 5 Avental Oxford Uniforme Ajustável Garçom Churrasqueiro(Modelo3)",
-        "货架位": "034"
+        "货架位": "044"
     },
     {
         "SKU": "A1150-Modelo2",
         "标题": "Kit 5 Avental Oxford Uniforme Ajustável Garçom Churrasqueiro(Modelo2)",
-        "货架位": "034"
+        "货架位": "044"
     },
     {
         "SKU": "A1150-Modelo1",
@@ -11707,27 +12102,27 @@
     {
         "SKU": "A1139-Azul-escuro",
         "标题": "Mini Bolsa De Ombro Lateral Respirável E Impermeável(Azul-escuro)",
-        "货架位": "4-2-3"
+        "货架位": "0044"
     },
     {
         "SKU": "A1139-Azul-claro",
         "标题": "Mini Bolsa De Ombro Lateral Respirável E Impermeável(Azul-claro)",
-        "货架位": "4-2-3"
+        "货架位": "0044"
     },
     {
         "SKU": "A1139-Preto",
         "标题": "Mini Bolsa De Ombro Lateral Respirável E Impermeável(Preto)",
-        "货架位": "4-2-3"
+        "货架位": "0044"
     },
     {
         "SKU": "A1139-Branco",
         "标题": "Mini Bolsa De Ombro Lateral Respirável E Impermeável(Branco)",
-        "货架位": "4-2-3"
+        "货架位": "0044"
     },
     {
         "SKU": "A1139-Verde-escuro",
         "标题": "Mini Bolsa De Ombro Lateral Respirável E Impermeável(Verde-escuro)",
-        "货架位": "4-2-3"
+        "货架位": "0044"
     },
     {
         "SKU": "A1143-Prateado",
@@ -11767,12 +12162,12 @@
     {
         "SKU": "A1115-4pcs",
         "标题": "Kit 4 Pedras Dupla De Afiar Amolar Rotativa P/ Furadeira",
-        "货架位": "5-3-6"
+        "货架位": "32"
     },
     {
         "SKU": "A1113",
         "标题": "Kit 3 Serra Copo Fura Parede Concreto Laje Brocas 30 40 50mm",
-        "货架位": "04"
+        "货架位": "41"
     },
     {
         "SKU": "A1110",
@@ -11812,12 +12207,12 @@
     {
         "SKU": "A1120",
         "标题": "Brocas P/ Furo Quadrado Jogo 4 Peças 1/4 - 5/16 - 3/8 - 1/2",
-        "货架位": "35"
+        "货架位": "04"
     },
     {
         "SKU": "A1103-Cinza",
         "标题": "Bolsa Canguru Carregador Ergonômico Para Bebê(Cinza)",
-        "货架位": null
+        "货架位": "044"
     },
     {
         "SKU": "A1127",
@@ -12422,7 +12817,7 @@
     {
         "SKU": "A1065",
         "标题": "Mira Laser Red Dot Para Cano Carabina Rifle Espingarda Tiro",
-        "货架位": null
+        "货架位": "14"
     },
     {
         "SKU": "A1064",
@@ -12802,22 +13197,22 @@
     {
         "SKU": "A1041-Azul",
         "标题": "Mochila Térmica Grande 50 Latas 30l Piquenique Acampamento(Azul)",
-        "货架位": "39"
+        "货架位": "045"
     },
     {
         "SKU": "A1040-Preto",
         "标题": "Mochila Masculina E Feminina Notebook Impermeável Reforçada(Preto)",
-        "货架位": "14"
+        "货架位": "45"
     },
     {
         "SKU": "A1040-Cinza",
         "标题": "Mochila Masculina E Feminina Notebook Impermeável Reforçada(Cinza)",
-        "货架位": "14"
+        "货架位": "45"
     },
     {
         "SKU": "A1040-Azul",
         "标题": "Mochila Masculina E Feminina Notebook Impermeável Reforçada(Azul)",
-        "货架位": "14"
+        "货架位": "45"
     },
     {
         "SKU": "A1039-Preto",
@@ -13062,7 +13457,7 @@
     {
         "SKU": "A1016",
         "标题": "Aspersor De Jardim Giratório Automático Com Tripé De 360",
-        "货架位": "23"
+        "货架位": "39"
     },
     {
         "SKU": "A1015-Verde-Escuro",
@@ -13107,12 +13502,12 @@
     {
         "SKU": "A1013-Preto",
         "标题": "Torneira Aço304 Para Cozinha Gourmet Extensível Monocomando(Preto)",
-        "货架位": "019"
+        "货架位": "013"
     },
     {
         "SKU": "A1011",
         "标题": "Desumidificador Elétrico Usb Bivolt 110v/220v Casa Carro(110V/220V)",
-        "货架位": "00028"
+        "货架位": "30"
     },
     {
         "SKU": "A1009",
