@@ -1,5 +1,70 @@
 [
     {
+        "SKU": "A2267-Prateado-10m",
+        "标题": "Fita Metalizada De Pvc 15mm Com Autocolante 1mm 10 Metros(Prateado,10m)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2267-Preto-10m",
+        "标题": "Fita Metalizada De Pvc 15mm Com Autocolante 1mm 10 Metros(Preto,10m)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2267-Dourado-10m",
+        "标题": "Fita Metalizada De Pvc 15mm Com Autocolante 1mm 10 Metros(Dourado,10m)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1973-Branco",
+        "标题": "Estojo De Carregamento Sem Fio Para Galaxy Buds Fe R400(Branco)",
+        "货架位": null
+    },
+    {
+        "SKU": "A2266",
+        "标题": "Óleo De Limpeza Anua Heartleaf Pore Control Korean 200ml",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-2-Vermelho-2Pcs",
+        "标题": "2pc Fechadura Trava De Porta De Segurança Portátil Casa Pronta Entrega(2-Vermelho)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-2-Preto-2Pcs",
+        "标题": "2pc Fechadura Trava De Porta De Segurança Portátil Casa Pronta Entrega(2-Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-2-Vermelho",
+        "标题": "Fechadura Trava De Porta De Segurança Portátil Hotel Casa(2-Vermelho)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-1-Vermelho",
+        "标题": "Fechadura Trava De Porta De Segurança Portátil Hotel Casa(1-Vermelho)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-2-Preto",
+        "标题": "Fechadura Trava De Porta De Segurança Portátil Hotel Casa(2-Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-1-Preto",
+        "标题": "Fechadura Trava De Porta De Segurança Portátil Hotel Casa(1-Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-1-Preto-2Pcs",
+        "标题": "2pc Fechadura Trava De Porta De Segurança Portátil Hotel Cas(Preto)",
+        "货架位": null
+    },
+    {
+        "SKU": "A1242-1-Vermelho-2Pcs",
+        "标题": "2pc Fechadura Trava De Porta De Segurança Portátil Hotel Cas(Vermelho)",
+        "货架位": null
+    },
+    {
         "SKU": "A2257 10-24mm",
         "标题": "Jogo 12 Chave Cabeça Combinadas Com Catraca 6-19/10-24mm(10-24mm)",
         "货架位": null
@@ -157,7 +222,7 @@
     {
         "SKU": "A1578-Bege+Pink+Preto-G1/4XL",
         "标题": "Kit 3 Calcinhas De Algodão Absorvente Confort Período(Bege+Pink+Preto,G1)",
-        "货架位": null
+        "货架位": "0027"
     },
     {
         "SKU": "A1682-Bege 2 Pcs",
@@ -530,11 +595,6 @@
         "货架位": "11"
     },
     {
-        "SKU": "A1679-Azul Detalhes-Azul",
-        "标题": "Mochila Escolar À Prova D'água Para Astronauta Mochila Masculina E Feminina Para Estudantes De Grande Capacidade(Azul)",
-        "货架位": null
-    },
-    {
         "SKU": "A1679-Preto-Preto",
         "标题": "Mochila Escolar À Prova D'água Para Astronauta Mochila Masculina E Feminina Para Estudantes De Grande Capacidade(Preto)",
         "货架位": null
@@ -752,7 +812,7 @@
     {
         "SKU": "A1776-3",
         "标题": "Kit Viagem 16pcs Nécessaires Frasco Silicone Shampoo Creme(3)",
-        "货架位": "18"
+        "货架位": "0018"
     },
     {
         "SKU": "A1172-Preto",
@@ -1167,12 +1227,12 @@
     {
         "SKU": "A1803-Verde",
         "标题": "Rádio De Emergência Manivela Solar 1200mah Com Lanterna(Verde,Bivolt)",
-        "货架位": "011"
+        "货架位": "11"
     },
     {
         "SKU": "A1803-Preto",
         "标题": "Rádio De Emergência Manivela Solar 1200mah Com Lanterna(Preto,Bivolt)",
-        "货架位": "011"
+        "货架位": "11"
     },
     {
         "SKU": "A1433-Cinza-escuro",
@@ -3812,7 +3872,7 @@
     {
         "SKU": "A1393-Cinza",
         "标题": "2pcs Puxador De Porta De Corre Auto-adesivo Liga De Alumínio(Cinza)",
-        "货架位": "2"
+        "货架位": "02"
     },
     {
         "SKU": "A1026-Marrom",
@@ -5082,12 +5142,12 @@
     {
         "SKU": "A1852",
         "标题": "Lenços Umedecidos Para Limpar Dentes De Animais 50 Peças",
-        "货架位": "02"
+        "货架位": "002"
     },
     {
         "SKU": "A1572-Cinza",
         "标题": "Massageador Portátil De Pernas E Panturrilha Aquecedor Novo(Cinza)",
-        "货架位": null
+        "货架位": "020"
     },
     {
         "SKU": "A1349-Branco-Unico",
@@ -5157,22 +5217,22 @@
     {
         "SKU": "A1827-Salmao",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço2 Cor Azul",
-        "货架位": "0020"
+        "货架位": "029"
     },
     {
         "SKU": "A1157-Rosa",
         "标题": "Organizador Cabide 30 Bolsos Porta Sutiã Calcinha Cueca Meia(Rosa 36 Bolsos)",
-        "货架位": "03"
+        "货架位": "042"
     },
     {
         "SKU": "A1157-Bege",
         "标题": "Organizador Cabide 30 Bolsos Porta Sutiã Calcinha Cueca Meia(Bege 36 Bolsos)",
-        "货架位": "03"
+        "货架位": "042"
     },
     {
         "SKU": "A1157-Cinza",
         "标题": "Organizador Cabide 30 Bolsos Porta Sutiã Calcinha Cueca Meia(Cinza 36 Bolsos)",
-        "货架位": "03"
+        "货架位": "042"
     },
     {
         "SKU": "A1842",
@@ -5235,11 +5295,6 @@
         "货架位": null
     },
     {
-        "SKU": "CP0288",
-        "标题": "Óleo De Limpeza Anua Heartleaf Pore Control Korean 200ml",
-        "货架位": null
-    },
-    {
         "SKU": "CP0278",
         "标题": "Termômetro Infravermelho Portátil Industrial (-50°c A 600°c)",
         "货架位": null
@@ -5252,12 +5307,12 @@
     {
         "SKU": "A1057-12v-220v",
         "标题": "Inversor De Carro Digital Solar 12v-110v/220v 4000w Com Usb(12v-220v)",
-        "货架位": "23"
+        "货架位": "0023"
     },
     {
         "SKU": "A1057-12v-110v",
         "标题": "Inversor De Carro Digital Solar 12v-110v/220v 4000w Com Usb(12v-110v)",
-        "货架位": "23"
+        "货架位": "0023"
     },
     {
         "SKU": "CP0261-Preto-IPHONE 15",
@@ -5323,16 +5378,6 @@
         "SKU": "A1831-2 Pcs",
         "标题": "Kit 2 Peças De Spray De Óleo Essencial Para Cuidados Cabelos",
         "货架位": null
-    },
-    {
-        "SKU": "A1242-Preto-2Pcs",
-        "标题": "2pc Fechadura Trava De Porta De Segurança Portátil Hotel Cas(Preto)",
-        "货架位": "000003"
-    },
-    {
-        "SKU": "A1242-Vermelho-2Pcs",
-        "标题": "2pc Fechadura Trava De Porta De Segurança Portátil Hotel Cas(Vermelho)",
-        "货架位": "000003"
     },
     {
         "SKU": "A1139-Caqui",
@@ -5517,12 +5562,12 @@
     {
         "SKU": "A1485-Azul",
         "标题": "Mochila De Piscina De Natação Com Cordão Seca E Úmida(Azul)",
-        "货架位": "0022"
+        "货架位": "022"
     },
     {
         "SKU": "A1485-Verde",
         "标题": "Mochila De Piscina De Natação Com Cordão Seca E Úmida(Verde)",
-        "货架位": "0022"
+        "货架位": "022"
     },
     {
         "SKU": "A1485-Rosa",
@@ -5532,32 +5577,32 @@
     {
         "SKU": "A1485-Cinza",
         "标题": "Mochila De Piscina De Natação Com Cordão Seca E Úmida(Cinza)",
-        "货架位": "0022"
+        "货架位": "022"
     },
     {
         "SKU": "A1801-Bege",
         "标题": "Suporte Para Óculos De Sol Para Viseira De Carro Universal(Bege)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1801-Vermelho",
         "标题": "Suporte Para Óculos De Sol Para Viseira De Carro Universal(Vermelho)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1801-Cinza",
         "标题": "Suporte Para Óculos De Sol Para Viseira De Carro Universal(Cinza)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1807-Branco",
         "标题": "Capa Celular Para Samsung Z Flip 5 Luxury Hinge Protection(Branco)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1807-Rosa",
         "标题": "Capa Celular Para Samsung Z Flip 5 Luxury Hinge Protection(Rosa)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1792-Azul",
@@ -5622,12 +5667,12 @@
     {
         "SKU": "A1800-Branco",
         "标题": "Ventilador De Teto Silencioso Led Gradiente Controle Remoto(Branco)",
-        "货架位": null
+        "货架位": "13"
     },
     {
         "SKU": "A1800-Colorido",
         "标题": "Ventilador De Teto Silencioso Led Gradiente Controle Remoto(Colorido)",
-        "货架位": null
+        "货架位": "13"
     },
     {
         "SKU": "A1804",
@@ -5772,7 +5817,7 @@
     {
         "SKU": "A1822",
         "标题": "Polímero Revitalizador De Faróis E Copo De Polimento A Vapor",
-        "货架位": "017"
+        "货架位": "35"
     },
     {
         "SKU": "A1812",
@@ -5782,12 +5827,12 @@
     {
         "SKU": "A1818",
         "标题": "Recipiente De Almoço Isolado Portátil Aço Inoxidável 304",
-        "货架位": "022"
+        "货架位": "0022"
     },
     {
         "SKU": "A1815",
         "标题": "Equipamento Para Lavatório Almofada + Circulação De Água",
-        "货架位": "25"
+        "货架位": "26"
     },
     {
         "SKU": "A1829",
@@ -5797,7 +5842,7 @@
     {
         "SKU": "A1043-Rosa+Bege+Roxo-38/85",
         "标题": "Kit 3 Sutiãs Para Amamentação Maternidade Top Botão Frontal(Rosa+Bege+Roxo,38/85)",
-        "货架位": null
+        "货架位": "042"
     },
     {
         "SKU": "A1397-G",
@@ -5822,12 +5867,12 @@
     {
         "SKU": "A1827-Preto",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Preto)",
-        "货架位": "0020"
+        "货架位": "029"
     },
     {
         "SKU": "A1827-Cinza",
         "标题": "Mochila Bolsa Maternidade Menino Menina Térmica Vira Berço(Cinza)",
-        "货架位": "0020"
+        "货架位": "029"
     },
     {
         "SKU": "A1827-Azul",
@@ -5837,12 +5882,12 @@
     {
         "SKU": "A1826-Colorido",
         "标题": "Kit 6 Peças Modeladores De Cabelo Sem Calor Cobertos Cetim(Colorido)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1826-Preto",
         "标题": "Kit 6 Peças Modeladores De Cabelo Sem Calor Cobertos Cetim(Preto)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1825-Branco",
@@ -5877,7 +5922,7 @@
     {
         "SKU": "A1824",
         "标题": "Câmera De Trilha De Visão Noturna De Caça 12mp 1080p",
-        "货架位": "17"
+        "货架位": "0018"
     },
     {
         "SKU": "A1828",
@@ -5892,7 +5937,7 @@
     {
         "SKU": "A1779-100 Pcs",
         "标题": "Kit 100 Peças Prendedor De Roupa 100% Inox Pronta Entrega",
-        "货架位": "000003"
+        "货架位": "0003"
     },
     {
         "SKU": "A1731-Amarelo",
@@ -5922,7 +5967,7 @@
     {
         "SKU": "A1726",
         "标题": "Kit De Sobrevivência De Emergência De Acampamento Aventura",
-        "货架位": "00000003"
+        "货架位": "000003"
     },
     {
         "SKU": "A1750-Preto-GG/XL",
@@ -5977,7 +6022,7 @@
     {
         "SKU": "A1743",
         "标题": "Kit 25 Peças Jogo De Brocas P/ Ferro C/ Caixa Metálica",
-        "货架位": null
+        "货架位": "014"
     },
     {
         "SKU": "A1729",
@@ -6067,7 +6112,7 @@
     {
         "SKU": "A1801-Preto",
         "标题": "Suporte Para Óculos De Sol Para Viseira De Carro Universal(Preto)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1808",
@@ -6092,12 +6137,12 @@
     {
         "SKU": "A1807-Roxa",
         "标题": "Capa Celular Para Samsung Z Flip 5 Luxury Hinge Protection(Roxa)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1807-Preto",
         "标题": "Capa Celular Para Samsung Z Flip 5 Luxury Hinge Protection(Preto)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1723",
@@ -6107,12 +6152,12 @@
     {
         "SKU": "A1776-2",
         "标题": "Kit Viagem 16pcs Nécessaires Frasco Silicone Shampoo Creme(2)",
-        "货架位": "18"
+        "货架位": "0018"
     },
     {
         "SKU": "A1776-1",
         "标题": "Kit Viagem 16pcs Nécessaires Frasco Silicone Shampoo Creme(1)",
-        "货架位": "18"
+        "货架位": "0018"
     },
     {
         "SKU": "A1778-Cinza",
@@ -6137,12 +6182,12 @@
     {
         "SKU": "A1754-Preto",
         "标题": "Treinador Execitador De Mão Testador Força Dinamometro 120kg(Preto)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1754-Azul",
         "标题": "Treinador Execitador De Mão Testador Força Dinamometro 120kg(Azul)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1774-Preto",
@@ -6222,7 +6267,7 @@
     {
         "SKU": "A1768",
         "标题": "Dispensador De Enxaguatório Bucal Para Banheiro 540ml",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A1746-Rosa",
@@ -6327,7 +6372,7 @@
     {
         "SKU": "A1715",
         "标题": "Guincho Manual De Arraste Com Catraca 315 Kg",
-        "货架位": "5-3-5"
+        "货架位": "014"
     },
     {
         "SKU": "A1704-50 Pcs G+ 50 Pcs P",
@@ -6352,7 +6397,7 @@
     {
         "SKU": "A1759-1 Vermelho+1 Azul",
         "标题": "Kit 2 Peças Válvula Acionadora 1/4x1/4 1/4x5/16 R22 R410",
-        "货架位": "0000003"
+        "货架位": "000003"
     },
     {
         "SKU": "A1732-2",
@@ -6382,7 +6427,7 @@
     {
         "SKU": "A1745",
         "标题": "Kit 32 Pcs Moldes Para Cortar Sanduíche Pão Frutas Infantil",
-        "货架位": null
+        "货架位": "00013"
     },
     {
         "SKU": "A1762-Rosa",
@@ -6397,7 +6442,7 @@
     {
         "SKU": "A1761",
         "标题": "Carregador De Bateria Reparo De Pulso 8a 12v 24v Carro Moto",
-        "货架位": "15"
+        "货架位": "015"
     },
     {
         "SKU": "A1730",
@@ -6677,7 +6722,7 @@
     {
         "SKU": "A1426-Luz Colorida",
         "标题": "Kit 2 Luminaria Solar Para Jardim Luz Vaga-lume 8 Leds(Luz Colorida)",
-        "货架位": "35"
+        "货架位": "035"
     },
     {
         "SKU": "A1158-Vermelho escuro",
@@ -6767,16 +6812,6 @@
     {
         "SKU": "A1662",
         "标题": "Kit Joia Pulseira Miçangas Berloques Diy Bracelete Princesas",
-        "货架位": "000003"
-    },
-    {
-        "SKU": "A1242-Preto",
-        "标题": "Fechadura Trava De Porta De Segurança Portátil Hotel Casa(Preto)",
-        "货架位": "000003"
-    },
-    {
-        "SKU": "A1242-Vermelho",
-        "标题": "Fechadura Trava De Porta De Segurança Portátil Hotel Casa(Vermelho)",
         "货架位": "000003"
     },
     {
@@ -7087,11 +7122,6 @@
     {
         "SKU": "CP0227-Preto",
         "标题": "Heartbuds Fone De Ouvido Bluetooth Sem Fio Pronta Entrega(Preto)",
-        "货架位": null
-    },
-    {
-        "SKU": "230426-2",
-        "标题": "Cortador De Vidro Profissional Caneta Diamante 6mm iBoa Presentes(dourado)",
         "货架位": null
     },
     {
@@ -7577,7 +7607,7 @@
     {
         "SKU": "A1572-Rosa",
         "标题": "Massageador Portátil De Pernas E Panturrilha Aquecedor(Rosa)",
-        "货架位": null
+        "货架位": "020"
     },
     {
         "SKU": "A1573",
@@ -7587,12 +7617,12 @@
     {
         "SKU": "A1574-Verde",
         "标题": "Camião Piscina Remendo Lona Reparação Fita Rasgo Reparação(Verde)",
-        "货架位": "02"
+        "货架位": "002"
     },
     {
         "SKU": "A1574-Azul",
         "标题": "Camião Piscina Remendo Lona Reparação Fita Rasgo Reparação(Azul)",
-        "货架位": "02"
+        "货架位": "002"
     },
     {
         "SKU": "A1575",
@@ -7612,22 +7642,22 @@
     {
         "SKU": "A1578-Bege+Pink+Preto-XXG/3XL",
         "标题": "Calcinhas De Algodão Absorvente Confort Período Menstrual(Bege+Pink+Preto,XXG/3XL)",
-        "货架位": null
+        "货架位": "0027"
     },
     {
         "SKU": "A1578-Bege+Pink+Preto-XG/2XL",
         "标题": "Calcinhas De Algodão Absorvente Confort Período Menstrual(Bege+Pink+Preto,XG/2XL)",
-        "货架位": null
+        "货架位": "0027"
     },
     {
         "SKU": "A1578-Bege+Pink+Preto-GG/XL",
         "标题": "Calcinhas De Algodão Absorvente Confort Período Menstrual(Bege+Pink+Preto,GG/XL)",
-        "货架位": null
+        "货架位": "0027"
     },
     {
         "SKU": "A1578-Bege+Pink+Preto-G/L",
         "标题": "Calcinhas De Algodão Absorvente Confort Período Menstrual(Bege+Pink+Preto,G/L)",
-        "货架位": null
+        "货架位": "0027"
     },
     {
         "SKU": "A1581",
@@ -8137,12 +8167,12 @@
     {
         "SKU": "A1552-Preto",
         "标题": "Carteira Masculina Couro Legítimo Com Antifurto Promoção(Preto,Liso)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1552-Marrom-cafe",
         "标题": "Carteira Masculina Couro Legítimo Com Antifurto Promoção(Marrom,Liso)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1539-2Pcs",
@@ -8462,7 +8492,7 @@
     {
         "SKU": "A1497-1 Furador+1 Parafuso",
         "标题": "Alicate De Perfuração Edge Banding Ferramenta De Perfuração",
-        "货架位": "4-3-4"
+        "货架位": "035"
     },
     {
         "SKU": "A1493-Roxo",
@@ -8752,7 +8782,7 @@
     {
         "SKU": "A1485-Preto",
         "标题": "Mochila De Piscina De Natação Com Cordão Seca E Úmida(Preto)",
-        "货架位": "0022"
+        "货架位": "022"
     },
     {
         "SKU": "CP0130",
@@ -8762,11 +8792,6 @@
     {
         "SKU": "CP0126-Preto",
         "标题": "Escova De Cabelo Desembaraçadora Tangle Teezer(Preto)",
-        "货架位": null
-    },
-    {
-        "SKU": "CP0126-Rosa",
-        "标题": "Escova De Cabelo Desembaraçadora Tangle Teezer(Rosa)",
         "货架位": null
     },
     {
@@ -9082,27 +9107,27 @@
     {
         "SKU": "A1438-10 Pcs",
         "标题": "Kit 10 Peças Velas De Água Flutuantes Biodegradáveis",
-        "货架位": "030"
+        "货架位": "30"
     },
     {
         "SKU": "A1441-Azul-escuro",
         "标题": "Necessaire Viagem Bolsa Travel Maquiagem Gancho Divisórias(Azul-escuro)",
-        "货架位": "26"
+        "货架位": "026"
     },
     {
         "SKU": "A1441-Azul-claro",
         "标题": "Necessaire Viagem Bolsa Travel Maquiagem Gancho Divisórias(Azul-claro)",
-        "货架位": "26"
+        "货架位": "026"
     },
     {
         "SKU": "A1441-Rosa",
         "标题": "Necessaire Viagem Bolsa Travel Maquiagem Gancho Divisórias(Rosa)",
-        "货架位": "030"
+        "货架位": "026"
     },
     {
         "SKU": "A1441-Preto",
         "标题": "Necessaire Viagem Bolsa Travel Maquiagem Gancho Divisórias(Preto)",
-        "货架位": "26"
+        "货架位": "026"
     },
     {
         "SKU": "A1017-10Pcs Preto",
@@ -9327,12 +9352,12 @@
     {
         "SKU": "A1434",
         "标题": "Fita Fecho De Contato Adesivo 25mm X 5metros Macho E Fêmea",
-        "货架位": "04"
+        "货架位": "004"
     },
     {
         "SKU": "A1434-25m",
         "标题": "25m Fita Fecho De Contato Adesivo 25mm*25metro Macho E Fêmea",
-        "货架位": "04"
+        "货架位": "004"
     },
     {
         "SKU": "A1437",
@@ -9397,7 +9422,7 @@
     {
         "SKU": "A1413",
         "标题": "Kit 18 Peças Teste Arrefecimento P/ Radiador Comum E Selado",
-        "货架位": null
+        "货架位": "35"
     },
     {
         "SKU": "A1410-Verde-claro",
@@ -9467,7 +9492,7 @@
     {
         "SKU": "A1406",
         "标题": "Suporte De Celular P/ Moto Carregador Por Indução Anti-roubo",
-        "货架位": "15"
+        "货架位": "015"
     },
     {
         "SKU": "A1389-Prateado",
@@ -9482,12 +9507,12 @@
     {
         "SKU": "A1382-Preto",
         "标题": "Avental Churrasco Couro Bovino Premium Churrasqueiro(Preto)",
-        "货架位": null
+        "货架位": "00013"
     },
     {
         "SKU": "A1382-Marrom-escuro",
         "标题": "Avental Churrasco Couro Bovino Premium Churrasqueiro(Marrom-escuro)",
-        "货架位": null
+        "货架位": "00013"
     },
     {
         "SKU": "A1023",
@@ -9502,7 +9527,7 @@
     {
         "SKU": "A1387-Prateado",
         "标题": "Jogo De Chaves Multidentada E Hexagonal Com 40 Peças Torx(Prateado)",
-        "货架位": "14"
+        "货架位": "014"
     },
     {
         "SKU": "A1381-Preto",
@@ -9537,7 +9562,7 @@
     {
         "SKU": "A1426-Luz quente",
         "标题": "Kit 2 Iluminação De Jardim Solar Vaga-lume 8 Leds(Luz quente)",
-        "货架位": "35"
+        "货架位": "035"
     },
     {
         "SKU": "A1420",
@@ -9557,17 +9582,17 @@
     {
         "SKU": "A1421- 5 bicos",
         "标题": "5 Peças Bicos Engate Rápido Lavadora Alta Pressão Karcher",
-        "货架位": "3"
+        "货架位": "16"
     },
     {
         "SKU": "A1421",
         "标题": "Adaptador Engate Rápido Lavadora Alta Pressão Karcher+bicos",
-        "货架位": "2-2-1"
+        "货架位": "16"
     },
     {
         "SKU": "A1421-1peca Adaptador",
         "标题": "Adaptador Engate Rápido Lavadora Alta Pressão Karcher",
-        "货架位": "2-2-1"
+        "货架位": "16"
     },
     {
         "SKU": "A1419-Kit 3",
@@ -9657,17 +9682,17 @@
     {
         "SKU": "A1393-Prateado",
         "标题": "2pcs Puxador De Porta De Corre Auto-adesivo Liga De Alumínio(Prateado)",
-        "货架位": "2"
+        "货架位": "02"
     },
     {
         "SKU": "A1393-Dourado",
         "标题": "2pcs Puxador De Porta De Corre Auto-adesivo Liga De Alumínio(Dourado)",
-        "货架位": "2"
+        "货架位": "02"
     },
     {
         "SKU": "A1393-Preto",
         "标题": "2pcs Puxador De Porta De Corre Auto-adesivo Liga De Alumínio(Preto)",
-        "货架位": "2"
+        "货架位": "02"
     },
     {
         "SKU": "A1378",
@@ -9722,7 +9747,7 @@
     {
         "SKU": "A1374",
         "标题": "Mini Impressora Térmica Etiqueta Portátil Sem Fio Bt Escolar",
-        "货架位": "4-2-7"
+        "货架位": "021"
     },
     {
         "SKU": "A1041-Laranja+Cinza",
@@ -9887,7 +9912,7 @@
     {
         "SKU": "A1341",
         "标题": "Kit 30 Folhas Plásticas Fichario Pasta Album Pokemon Cartão",
-        "货架位": "0028"
+        "货架位": "00028"
     },
     {
         "SKU": "A1342-Preto",
@@ -10347,7 +10372,7 @@
     {
         "SKU": "A1286",
         "标题": "6pcs Pente Funil Pra Mechas Luzes Tintura Cabeleireiro Salão",
-        "货架位": "000003"
+        "货架位": "03"
     },
     {
         "SKU": "A1285",
@@ -10667,7 +10692,7 @@
     {
         "SKU": "A1270",
         "标题": "Kit 5 Lixas Diamantada Polir Mármore 1 Suporte Grão 100-1500",
-        "货架位": "018"
+        "货架位": "18"
     },
     {
         "SKU": "A1239",
@@ -10792,17 +10817,17 @@
     {
         "SKU": "A1268-Preto",
         "标题": "2pcs Puxador De Porta Auto-adesivo Liga De Alumínio 200mm(Preto)",
-        "货架位": "14"
+        "货架位": "014"
     },
     {
         "SKU": "A1268-Prateado",
         "标题": "2pcs Puxador De Porta Auto-adesivo Liga De Alumínio 200mm(Prateado)",
-        "货架位": "14"
+        "货架位": "014"
     },
     {
         "SKU": "A1268-Dourado",
         "标题": "2pcs Puxador De Porta Auto-adesivo Liga De Alumínio 200mm(Dourado)",
-        "货架位": "14"
+        "货架位": "014"
     },
     {
         "SKU": "A1241",
@@ -10817,7 +10842,7 @@
     {
         "SKU": "A1220",
         "标题": "Ventosa Profissional Sucção Vácuo Vidro Mármore 200kg Metal",
-        "货架位": "11"
+        "货架位": "26"
     },
     {
         "SKU": "A1227",
@@ -10977,7 +11002,7 @@
     {
         "SKU": "A1262",
         "标题": "Suporte Celular Prova D'agua Para Moto/ Bicicleta Universal",
-        "货架位": "13"
+        "货架位": "00020"
     },
     {
         "SKU": "A1258-Verde",
@@ -11227,7 +11252,7 @@
     {
         "SKU": "A1190",
         "标题": "Conjunto De Maquiagem Infantil Lavável 32 Peças Com Estojo",
-        "货架位": "31"
+        "货架位": "013"
     },
     {
         "SKU": "A1189",
@@ -11337,7 +11362,7 @@
     {
         "SKU": "A1180",
         "标题": "36 Pcs Bolsa Boneca Barbie Guarda Roupa Vestido E Acessórios",
-        "货架位": "1-2-1"
+        "货架位": "011"
     },
     {
         "SKU": "A1179-Preto-XGG XXL",
@@ -11947,7 +11972,7 @@
     {
         "SKU": "A1160",
         "标题": "Kit 19 Jogos Espátulas De Nylon E Chaves Automotivas",
-        "货架位": null
+        "货架位": "0020"
     },
     {
         "SKU": "A1133-Preto",
@@ -12750,11 +12775,6 @@
         "货架位": "15"
     },
     {
-        "SKU": "CP11025",
-        "标题": "Kit Lanterna Traseira Bicicleta Led Recarregável Usb",
-        "货架位": null
-    },
-    {
         "SKU": "A1076-XG/XXL-Azul",
         "标题": "Calça Ciclista Com Gel Respirável À Prova De Choque 5d/3d(Azul,XG)",
         "货架位": "22"
@@ -12972,7 +12992,7 @@
     {
         "SKU": "A1055",
         "标题": "Ventosa Profissional Sucção Vácuo Vidro Mármore 240kg Metal",
-        "货架位": "3-2-6"
+        "货架位": "013"
     },
     {
         "SKU": "D101-MHL-19",
@@ -13337,12 +13357,12 @@
     {
         "SKU": "A1039-Preto",
         "标题": "Suporte De Parede Toalha Cozinha Banheiro Papel Toalheira(Preto)",
-        "货架位": "022"
+        "货架位": "0022"
     },
     {
         "SKU": "A1039-Prateado",
         "标题": "Suporte De Parede Toalha Cozinha Banheiro Papel Toalheira(Prateado)",
-        "货架位": "022"
+        "货架位": "0022"
     },
     {
         "SKU": "A1038-Marrom",
@@ -13392,7 +13412,7 @@
     {
         "SKU": "A1036",
         "标题": "Conjunto 4pcs De Desbaste Madeira Para Corte Em Ângulo Disco",
-        "货架位": null
+        "货架位": "41"
     },
     {
         "SKU": "A1035",
@@ -13557,7 +13577,7 @@
     {
         "SKU": "A1021",
         "标题": "Lanterna Holofote Super Potente Led Recarregável 40w Top(Branco)",
-        "货架位": "000003"
+        "货架位": "00000003"
     },
     {
         "SKU": "A1020-1USB+1TipoC",
@@ -13582,22 +13602,22 @@
     {
         "SKU": "A1015-Verde-Escuro",
         "标题": "Pochete Bolsa Masculina Lateral Multiuso Ombro Bag Impermeáv(Verde-escuro)",
-        "货架位": "000028"
+        "货架位": "0028"
     },
     {
         "SKU": "A1015-Verde Militar",
         "标题": "Pochete Bolsa Masculina Lateral Multiuso Ombro Bag Impermeáv(Verde Militar)",
-        "货架位": "000028"
+        "货架位": "0028"
     },
     {
         "SKU": "A1015-Preto",
         "标题": "Pochete Bolsa Masculina Lateral Multiuso Ombro Bag Impermeáv(Preto)",
-        "货架位": "000028"
+        "货架位": "0028"
     },
     {
         "SKU": "A1015-Azul-marinho",
         "标题": "Pochete Bolsa Masculina Lateral Multiuso Ombro Bag Impermeáv(Azul-marinho)",
-        "货架位": "000028"
+        "货架位": "0028"
     },
     {
         "SKU": "A1014-Rose",
