@@ -1,5 +1,15 @@
 [
     {
+        "SKU": "A2268",
+        "标题": "Lâmpada De Cabeceira Plissada P/ Quarto E Mesa Recarregável",
+        "货架位": null
+    },
+    {
+        "SKU": "A1265-Prateado",
+        "标题": "Martelete Pneumático Rebarbador 150mm Com 4 Ponteiras(Prateado)",
+        "货架位": "0034"
+    },
+    {
         "SKU": "A2267-Prateado-10m",
         "标题": "Fita Metalizada De Pvc 15mm Com Autocolante 1mm 10 Metros(Prateado,10m)",
         "货架位": null
@@ -2622,7 +2632,7 @@
     {
         "SKU": "A1093-Caqui",
         "标题": "Binoculo C/ Suporte 20x50 De Longo Alcance 10km Profissional(Cáqui)",
-        "货架位": "13"
+        "货架位": "019"
     },
     {
         "SKU": "A1491-Dourado",
@@ -3492,27 +3502,27 @@
     {
         "SKU": "A1436-2Pcs-10mm",
         "标题": "10pcs Disco De Diamante Corte De Vidro Polimento Lâmina Fina PRONTA EMTREGA(10mm,2 PCS)",
-        "货架位": null
+        "货架位": "004"
     },
     {
         "SKU": "A1436-3Pcs-10mm",
         "标题": "10pcs Disco De Diamante Corte De Vidro Polimento Lâmina Fina PRONTA EMTREGA(10mm,3PCS)",
-        "货架位": null
+        "货架位": "004"
     },
     {
         "SKU": "A1436-5Pcs-10mm",
         "标题": "10pcs Disco De Diamante Corte De Vidro Polimento Lâmina Fina PRONTA EMTREGA(10mm,5PCS)",
-        "货架位": null
+        "货架位": "004"
     },
     {
         "SKU": "A1436-3Pcs-15mm",
         "标题": "10pcs Disco De Diamante Corte De Vidro Polimento Lâmina Fina PRONTA EMTREGA(15mm,3PCS)",
-        "货架位": null
+        "货架位": "004"
     },
     {
         "SKU": "A1436-2Pcs-15mm",
         "标题": "10pcs Disco De Diamante Corte De Vidro Polimento Lâmina Fina PRONTA EMTREGA(15mm,2 PCS)",
-        "货架位": null
+        "货架位": "004"
     },
     {
         "SKU": "A1858-Vermelho",
@@ -4567,7 +4577,7 @@
     {
         "SKU": "A1900",
         "标题": "Mamadeiras De Silicone Anti-cólicas Com Toque Natural Bebê",
-        "货架位": "27"
+        "货架位": "19"
     },
     {
         "SKU": "A1898- 2 Pcs",
@@ -5697,7 +5707,7 @@
     {
         "SKU": "A1784",
         "标题": "Blocos De Construção Buquê Flores De Ícones 608pcs Orquídea",
-        "货架位": "0020"
+        "货架位": "00020"
     },
     {
         "SKU": "A1803",
@@ -6532,7 +6542,7 @@
     {
         "SKU": "A1700",
         "标题": "Aparelho Estética Alta Frequência Portátil Facial /capilar(110V/220V)",
-        "货架位": "20"
+        "货架位": "41"
     },
     {
         "SKU": "A1698",
@@ -6807,7 +6817,7 @@
     {
         "SKU": "A1675",
         "标题": "Cortador De Grama Com Roda De Arame Escova Giratória De Roda",
-        "货架位": "23"
+        "货架位": "05"
     },
     {
         "SKU": "A1662",
@@ -7917,7 +7927,7 @@
     {
         "SKU": "A1556-5*8mm",
         "标题": "5 Escareador Com Limitador Ajustavel Para Madeira Com Broca(5*8mm)",
-        "货架位": "04"
+        "货架位": "06"
     },
     {
         "SKU": "A1567-2*3m",
@@ -8572,7 +8582,7 @@
     {
         "SKU": "A1428-Rosa",
         "标题": "Estojo Escolar 72 Pontos Organizador Caneta Lápis Multiuso(Rosa)",
-        "货架位": "0017"
+        "货架位": "032"
     },
     {
         "SKU": "A1104-Preto-Crocodilo",
@@ -9162,17 +9172,17 @@
     {
         "SKU": "A1436-5Pcs-15mm",
         "标题": "5pçs Disco De Diamante Corte De Vidro Polimento Lâmina 100mm",
-        "货架位": "4-3-1"
+        "货架位": "004"
     },
     {
         "SKU": "A1436-10Pcs-15mm",
         "标题": "10pcs Disco De Diamante Corte De Vidro Polimento Lâmina Fina(Verde)",
-        "货架位": "4-3-1"
+        "货架位": "004"
     },
     {
         "SKU": "A1436-10Pcs-10mm",
         "标题": "10pcs Disco De Diamante Corte De Vidro Polimento Lâmina Fina(Verde)",
-        "货架位": "4-3-1"
+        "货架位": "004"
     },
     {
         "SKU": "A1440-Rosa",
@@ -9252,17 +9262,17 @@
     {
         "SKU": "A1428-Roxo",
         "标题": "Estojo Escolar 72 Pontos Organizador Caneta Lápis Multiuso(Roxo)",
-        "货架位": "0017"
+        "货架位": "032"
     },
     {
         "SKU": "A1428-Pink",
         "标题": "Estojo Escolar 72 Pontos Organizador Caneta Lápis Multiuso(Pink)",
-        "货架位": "0017"
+        "货架位": "032"
     },
     {
         "SKU": "A1428-Preto",
         "标题": "Estojo Escolar 72 Pontos Organizador Caneta Lápis Multiuso(Preto)",
-        "货架位": "0017"
+        "货架位": "00032"
     },
     {
         "SKU": "A1428-Azul",
@@ -9277,12 +9287,12 @@
     {
         "SKU": "A1034-Preto",
         "标题": "Balança Digital De Gancho 100kg 300kg Portátil Pesca Mercado(Preto)",
-        "货架位": "000028"
+        "货架位": "00028"
     },
     {
         "SKU": "A1034-Laranja",
         "标题": "Balança De Gancho Digital 100kg 300kg Portátil Pesca",
-        "货架位": "000028"
+        "货架位": "00028"
     },
     {
         "SKU": "A1435-Cinza",
@@ -10977,7 +10987,7 @@
     {
         "SKU": "A1252",
         "标题": "Placa Base Para Mesa Tupia Invertida Multifuncional",
-        "货架位": "0014"
+        "货架位": "06"
     },
     {
         "SKU": "A1256-2pcs",
@@ -11002,7 +11012,7 @@
     {
         "SKU": "A1262",
         "标题": "Suporte Celular Prova D'agua Para Moto/ Bicicleta Universal",
-        "货架位": "00020"
+        "货架位": "13"
     },
     {
         "SKU": "A1258-Verde",
@@ -12657,12 +12667,12 @@
     {
         "SKU": "A1093-Preto",
         "标题": "Binoculo C/ Suporte 20x50 De Longo Alcance 10km Profissional(Preto)",
-        "货架位": "13"
+        "货架位": "019"
     },
     {
         "SKU": "A1093-Verde",
         "标题": "Binoculo C/ Suporte 20x50 De Longo Alcance 10km Profissional(Verde)",
-        "货架位": "13"
+        "货架位": "019"
     },
     {
         "SKU": "A1088",
