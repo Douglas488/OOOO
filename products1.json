@@ -1,5 +1,15 @@
 [
     {
+        "SKU": "A2282",
+        "标题": "Equipamento De Treino Para Cabeça E Pescoço Cinto Ajustável",
+        "货架位": null
+    },
+    {
+        "SKU": "A1970-Cinza",
+        "标题": "Ventilador Mini Turbo Jet Super Poderoso De 130000 Rpm Novo(Cinza,127/220V)",
+        "货架位": null
+    },
+    {
         "SKU": "A2281-3 Pecas",
         "标题": "Kit 3 Peças Película Protetor De Tela Para Garmin Edge 1050",
         "货架位": null
@@ -122,7 +132,7 @@
     {
         "SKU": "A2151-1 Peca",
         "标题": "!!!Atenção vende por unidade!!!! 1 Peça Organizador De Bolsas Em Acrílico C/ Divisor",
-        "货架位": null
+        "货架位": "0020"
     },
     {
         "SKU": "A2140-Vermelho",
@@ -955,11 +965,6 @@
         "货架位": null
     },
     {
-        "SKU": "CP0337",
-        "标题": "Equipamento De Treino Para Cabeça E Pescoço Cinto Ajustável",
-        "货架位": null
-    },
-    {
         "SKU": "CP0339",
         "标题": "Aplicador De Protetor Solar Roll-on Fácil De Usar",
         "货架位": null
@@ -1542,7 +1547,7 @@
     {
         "SKU": "A1433-Cinza-escuro",
         "标题": "3m X 4m Toldo Impermeável Com Proteção Uv(Cinza-escuro)",
-        "货架位": "025"
+        "货架位": "35"
     },
     {
         "SKU": "A1907-Preto+Vermelho",
@@ -1607,7 +1612,7 @@
     {
         "SKU": "A2171",
         "标题": "Pacote Com 2 Espelhos Para Bicicleta Scooter Motocicleta",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A2168",
@@ -1657,7 +1662,7 @@
     {
         "SKU": "A2147",
         "标题": "Kit Com Suporte Para Massagem",
-        "货架位": null
+        "货架位": "21"
     },
     {
         "SKU": "A2162",
@@ -1712,12 +1717,12 @@
     {
         "SKU": "A2164-Verde",
         "标题": "Brinquedo Interativo Para Gatos Rolando Bola Inteligente(Verde)",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A2164-Vermelho",
         "标题": "Brinquedo Interativo Para Gatos Rolando Bola Inteligente(Vermelho)",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A2163-Branco-Unico",
@@ -1937,7 +1942,7 @@
     {
         "SKU": "A2120",
         "标题": "Tela Led De Bluetooth Display Flexível Inteligente P/ Carro",
-        "货架位": null
+        "货架位": "19"
     },
     {
         "SKU": "A2124",
@@ -1947,7 +1952,7 @@
     {
         "SKU": "A2132-Preto",
         "标题": "Caixa De Exibição Para Movimentador Automático De Relógio(Preto)",
-        "货架位": null
+        "货架位": "13"
     },
     {
         "SKU": "A2125-Ovelha",
@@ -2022,7 +2027,7 @@
     {
         "SKU": "A2128",
         "标题": "Bomba De Combustível Universal Gás Elétrico 12v Hep-02a",
-        "货架位": null
+        "货架位": "20"
     },
     {
         "SKU": "A2119-Branco",
@@ -2242,7 +2247,7 @@
     {
         "SKU": "A2114",
         "标题": "Câmera De Inspeção De Endoscópio Industrial De Lente Dupla 5",
-        "货架位": null
+        "货架位": "021"
     },
     {
         "SKU": "A2110-Azul-claro",
@@ -2477,12 +2482,12 @@
     {
         "SKU": "A2093-220v",
         "标题": "Máquina Elétrica Para Fritar Ovos E Fazer Panquecas Finas(220v)",
-        "货架位": null
+        "货架位": "09"
     },
     {
         "SKU": "A2093-110v",
         "标题": "Máquina Elétrica Para Fritar Ovos E Fazer Panquecas Finas(110v)",
-        "货架位": null
+        "货架位": "09"
     },
     {
         "SKU": "A2105",
@@ -2492,7 +2497,7 @@
     {
         "SKU": "A2092-Preto-12V",
         "标题": "Aspirador De Pó Automotivo Potente 120w 12v Turbo Para Carro(Preto,12V)",
-        "货架位": "21"
+        "货架位": "021"
     },
     {
         "SKU": "A2096-Branco",
@@ -2572,17 +2577,12 @@
     {
         "SKU": "A1647-42mm(Longa)",
         "标题": "Kit 100 Peças Pinos Para Pistola Finca Pino Com Arruela 42mm",
-        "货架位": "07"
+        "货架位": "30"
     },
     {
         "SKU": "A1647-27mm(Curto)",
         "标题": "Kit 100 Pcs Pino Acessórios Pistola De Pregos 27mm Snap Nail",
         "货架位": "06"
-    },
-    {
-        "SKU": "A1479-5 Pcs",
-        "标题": "1 A 5 Peças Conjunto De Disco De Moagem De Diamante Para Parede Concreto Mármore Granito(5PCS)",
-        "货架位": null
     },
     {
         "SKU": "A1479-3 Pcs",
@@ -2912,7 +2912,7 @@
     {
         "SKU": "A1509-Preto",
         "标题": "Bolsa Saco De Armazenamento De Ferramentas De Rolo Novo(Preto)",
-        "货架位": "30"
+        "货架位": "030"
     },
     {
         "SKU": "A1509-Verde",
@@ -3457,7 +3457,7 @@
     {
         "SKU": "A2036",
         "标题": "Blocos De Construção Flor De Cerejeira Sakura Árvore 2008pcs(Flor de Cerejeira)",
-        "货架位": null
+        "货架位": "17"
     },
     {
         "SKU": "A2023-Preto-One size",
@@ -3622,27 +3622,27 @@
     {
         "SKU": "A2000-Cinza-escuro",
         "标题": "Capas Elásticas Reclináveis Para Sofás E Poltrona Novo(Cinza-escuro)",
-        "货架位": null
+        "货架位": "09"
     },
     {
         "SKU": "A2000-Preto",
         "标题": "Capas Elásticas Reclináveis Para Sofás E Poltrona Novo(Preto)",
-        "货架位": null
+        "货架位": "09"
     },
     {
         "SKU": "A2000-Cinza",
         "标题": "Capas Elásticas Reclináveis Para Sofás E Poltrona Novo(Cinza)",
-        "货架位": null
+        "货架位": "09"
     },
     {
         "SKU": "A2000-Caqui",
         "标题": "Capas Elásticas Reclináveis Para Sofás E Poltrona Novo(Cáqui)",
-        "货架位": null
+        "货架位": "09"
     },
     {
         "SKU": "A1988",
         "标题": "Álbum Colecionador De Cartas Pokémon 400 Cartas Organizador",
-        "货架位": null
+        "货架位": "017"
     },
     {
         "SKU": "A1984",
@@ -3752,7 +3752,7 @@
     {
         "SKU": "A1218-Modelo2-2pcs",
         "标题": "Kit 4 Suporte De Placa De Compensado De Fixação De Painel De Gaveta Ferramenta Auxiliar De Instalação De Carpintaria(2pcs,Modelo2)",
-        "货架位": null
+        "货架位": "0017"
     },
     {
         "SKU": "A128-Modelo2",
@@ -3762,7 +3762,7 @@
     {
         "SKU": "A1218-Modelo1-2pcs",
         "标题": "Kit 4 Suporte De Placa De Compensado De Fixação De Painel De Gaveta Ferramenta Auxiliar De Instalação De Carpintaria(2pcs,Modelo1)",
-        "货架位": null
+        "货架位": "0017"
     },
     {
         "SKU": "A1436-2Pcs-10mm",
@@ -3942,7 +3942,7 @@
     {
         "SKU": "A1971",
         "标题": "Kit Educacional De Física Experimentos De Refração Óptica",
-        "货架位": "17"
+        "货架位": "017"
     },
     {
         "SKU": "A1973-Preto",
@@ -4417,17 +4417,17 @@
     {
         "SKU": "A1433-Vermelho escuro",
         "标题": "Toldo Impermeável Com Proteção Uv 3m X 4m(Vermelho escuro)",
-        "货架位": "025"
+        "货架位": "35"
     },
     {
         "SKU": "A1433-Cafe",
         "标题": "Toldo Impermeável Com Proteção Uv 3m X 4m(Café)",
-        "货架位": "025"
+        "货架位": "35"
     },
     {
         "SKU": "A1433-Azul",
         "标题": "Toldo Impermeável Com Proteção Uv 3m X 4m(Azul)",
-        "货架位": "025"
+        "货架位": "35"
     },
     {
         "SKU": "A1099-Roxo",
@@ -4837,7 +4837,7 @@
     {
         "SKU": "A1813-Branco",
         "标题": "Ventilador Com Luz Lâmpada De Parede Portátil Com Controle(Branco)",
-        "货架位": "0003"
+        "货架位": "03"
     },
     {
         "SKU": "CP0261-Branco-IPHONE 15",
@@ -4987,7 +4987,7 @@
     {
         "SKU": "A1887",
         "标题": "Jogo De Tabuleiro Usaopoly Tapple Word Fast Paced",
-        "货架位": "11"
+        "货架位": "0019"
     },
     {
         "SKU": "A1883",
@@ -5022,7 +5022,7 @@
     {
         "SKU": "A1885",
         "标题": "Kit Escova Rotativa Automática Para Limpeza De Vidros",
-        "货架位": "0002"
+        "货架位": "15"
     },
     {
         "SKU": "A1522-Cinza-escuro",
@@ -5052,7 +5052,7 @@
     {
         "SKU": "A1884",
         "标题": "Fritadeira Profunda Panela Para Batatas Fritas No Fogão",
-        "货架位": "21"
+        "货架位": "021"
     },
     {
         "SKU": "A1876",
@@ -5252,27 +5252,27 @@
     {
         "SKU": "A1861-Vermelho",
         "标题": "Taco De Beisebol De Alumínio Defesa Pessoal 32 Polegadas(Vermelho)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1861-Preto",
         "标题": "Taco De Beisebol De Alumínio Defesa Pessoal 32 Polegadas(Preto)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1861-Prateado",
         "标题": "Taco De Beisebol De Alumínio Defesa Pessoal 32 Polegadas(Prateado)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1861-Dourado",
         "标题": "Taco De Beisebol De Alumínio Defesa Pessoal 32 Polegadas(Dourado)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1861-Azul",
         "标题": "Taco De Beisebol De Alumínio Defesa Pessoal 32 Polegadas(Azul)",
-        "货架位": null
+        "货架位": "00020"
     },
     {
         "SKU": "A1851-Preto-2Pcs",
@@ -5457,11 +5457,6 @@
     {
         "SKU": "CP0281",
         "标题": "Fone De Ouvido Alta Qualidade Para Esporte 2024",
-        "货架位": null
-    },
-    {
-        "SKU": "CP0278",
-        "标题": "Termômetro Infravermelho Portátil Industrial (-50°c A 600°c)",
         "货架位": null
     },
     {
@@ -5837,7 +5832,7 @@
     {
         "SKU": "A1784",
         "标题": "Blocos De Construção Buquê Flores De Ícones 608pcs Orquídea",
-        "货架位": "00020"
+        "货架位": "0020"
     },
     {
         "SKU": "A1803",
@@ -5852,7 +5847,7 @@
     {
         "SKU": "A1782",
         "标题": "Chuveiro De Mão Alta Pressão Com Suporte Sem Furadeira",
-        "货架位": "0020"
+        "货架位": "019"
     },
     {
         "SKU": "A1791",
@@ -5947,7 +5942,7 @@
     {
         "SKU": "A1813-Cinza",
         "标题": "Ventilador Com Luz Lâmpada De Parede Portátil Com Controle(Cinza)",
-        "货架位": "0003"
+        "货架位": "03"
     },
     {
         "SKU": "A1822",
@@ -6062,7 +6057,7 @@
     {
         "SKU": "A1828",
         "标题": "Kit 1855 Peças Conjunto De Blocos De Construção Titanic",
-        "货架位": "13"
+        "货架位": "00020"
     },
     {
         "SKU": "A1724",
@@ -6362,7 +6357,7 @@
     {
         "SKU": "A1764-Preto",
         "标题": "Capa Protetor Para Chapinha Copo Bolsa Viagem Organizador(Preto)",
-        "货架位": "04"
+        "货架位": "0011"
     },
     {
         "SKU": "A1764-Pink",
@@ -6472,7 +6467,7 @@
     {
         "SKU": "A1737",
         "标题": "Lanterna Tática Sabre De Luz Mais Forte Led Militar P18",
-        "货架位": null
+        "货架位": "0023"
     },
     {
         "SKU": "A1710",
@@ -6575,11 +6570,6 @@
         "货架位": "038"
     },
     {
-        "SKU": "A1741",
-        "标题": "Kit 12 Flechas De Fibra De Vidro Practical Carbon Arrow",
-        "货架位": "23"
-    },
-    {
         "SKU": "A1719",
         "标题": "Ferramenta De Reparo De Alargador De Sede De Válvula",
         "货架位": "41"
@@ -6592,7 +6582,7 @@
     {
         "SKU": "A1739-110V",
         "标题": "Laminadora E Plastificadora Máquina De Laminação De Fotos A4(110V)",
-        "货架位": "022"
+        "货架位": "19"
     },
     {
         "SKU": "A1739-220V",
@@ -6627,7 +6617,7 @@
     {
         "SKU": "A1713",
         "标题": "Nível Laser 8 Linhas 3d Verde Recarregável Auto Nivelamento",
-        "货架位": "20"
+        "货架位": "00020"
     },
     {
         "SKU": "A1701",
@@ -6862,7 +6852,7 @@
     {
         "SKU": "A1643-US 110v",
         "标题": "Bomba Submersa Lagos Aquário Fonte Agua 0,45m 160l/h 2,5w(110V)",
-        "货架位": "0022"
+        "货架位": "18"
     },
     {
         "SKU": "A1666-30 Pcs",
@@ -6927,7 +6917,7 @@
     {
         "SKU": "A1662",
         "标题": "Kit Joia Pulseira Miçangas Berloques Diy Bracelete Princesas",
-        "货架位": "000003"
+        "货架位": "21"
     },
     {
         "SKU": "A1684-Suporte+Base",
@@ -6937,7 +6927,7 @@
     {
         "SKU": "A1672",
         "标题": "Núcleo De Válvula De Ar Condicionado Automotivo A/c R134a",
-        "货架位": "0014"
+        "货架位": "09"
     },
     {
         "SKU": "A1660-Preto",
@@ -7452,12 +7442,12 @@
     {
         "SKU": "A1433-Beige",
         "标题": "Toldo Impermeável Com Proteção Uv 3m X 4m(Beige)",
-        "货架位": "025"
+        "货架位": "35"
     },
     {
         "SKU": "A1433-Cinza",
         "标题": "Toldo Impermeável Com Proteção Uv 3m X 4m(Cinza)",
-        "货架位": "025"
+        "货架位": "35"
     },
     {
         "SKU": "A1620",
@@ -7567,12 +7557,12 @@
     {
         "SKU": "A1570-Rosa Rosinha Sereia",
         "标题": "Maleta Atividade Coordenação Sensorial Montessori Infantil(Rosa Rosinha Sereia)",
-        "货架位": "32"
+        "货架位": "000032"
     },
     {
         "SKU": "A1570-Azul Dino Dinossauro",
         "标题": "Maleta Atividade Coordenação Sensorial Montessori Infantil(Azul Dino Dinossauro)",
-        "货架位": "32"
+        "货架位": "000032"
     },
     {
         "SKU": "A1614",
@@ -7832,11 +7822,6 @@
     {
         "SKU": "A1589",
         "标题": "Antena Corretora De Sinal De Carro Dc12-24v 1560-1580mhz",
-        "货架位": null
-    },
-    {
-        "SKU": "A1590",
-        "标题": "Óleo De Mamona Orgânico Solução Para Crescimento De Cílios",
         "货架位": null
     },
     {
@@ -8237,7 +8222,7 @@
     {
         "SKU": "A1372-20pcs",
         "标题": "20 Peças Jogo De Xadrez Magnético 5 Modelos Ímãs De Jogo",
-        "货架位": "13"
+        "货架位": "017"
     },
     {
         "SKU": "A1538",
@@ -8262,7 +8247,7 @@
     {
         "SKU": "A1527",
         "标题": "Lâmpada Noturna De Silicone Capivara Com Controle De Toque",
-        "货架位": "0000003"
+        "货架位": "15"
     },
     {
         "SKU": "A1526",
@@ -8862,12 +8847,12 @@
     {
         "SKU": "A1461-Prateado",
         "标题": "Kit 4 Acessorios Banheiro Inox 304 Lavabo Cromado Sem Furo(Prateado)",
-        "货架位": "0020"
+        "货架位": "20"
     },
     {
         "SKU": "A1461-Preto",
         "标题": "Kit 4 Acessorios Banheiro Inox 304 Lavabo Cromado Sem Furo(Preto)",
-        "货架位": "0020"
+        "货架位": "20"
     },
     {
         "SKU": "A1142-Verde claro",
@@ -9767,12 +9752,12 @@
     {
         "SKU": "A1385-Branco Redondo",
         "标题": "Kit 16 Peças Protetor Para O Pé Da Cadeira/mesa De Silicone(Branco Redondo)",
-        "货架位": "33"
+        "货架位": "019"
     },
     {
         "SKU": "A1385-Branco Quadrado",
         "标题": "Kit 16 Peças Protetor Para O Pé Da Cadeira/mesa De Silicone(Branco Quadrado)",
-        "货架位": "33"
+        "货架位": "019"
     },
     {
         "SKU": "A1380-10 Cores-Unico",
@@ -10005,21 +9990,6 @@
         "货架位": "2"
     },
     {
-        "SKU": "A1366-Marrom-Unico",
-        "标题": "Boina Estilo Francesa Feminina Quepe Couro Casual Chic(Marrom,Único)",
-        "货架位": null
-    },
-    {
-        "SKU": "A1366-Cinza-Unico",
-        "标题": "Boina Estilo Francesa Feminina Quepe Couro Casual Chic(Cinza,Único)",
-        "货架位": null
-    },
-    {
-        "SKU": "A1366-Preto-Unico",
-        "标题": "Boina Estilo Francesa Feminina Quepe Couro Casual Chic(Preto,Único)",
-        "货架位": null
-    },
-    {
         "SKU": "A1368-Preto",
         "标题": "Removedor Elétrico De Pêlos De Partes Íntimas Masculinas(Preto)",
         "货架位": "019"
@@ -10127,22 +10097,17 @@
     {
         "SKU": "A1321",
         "标题": "Caixa Estanque Protetora Capa P/ Gopro Hero 9 10 11 12 60m",
-        "货架位": "0003"
+        "货架位": "13"
     },
     {
         "SKU": "A1322",
         "标题": "Tapete Piano Teclado Música Infantil Crianças Bebe",
-        "货架位": "22"
+        "货架位": "21"
     },
     {
         "SKU": "A1310",
         "标题": "Carlinkit 5.0 2-air Android Auto Carplay Wireless Sem Fio",
         "货架位": "003"
-    },
-    {
-        "SKU": "CP0094",
-        "标题": "Creme Base De Maquiagem Invisible Pore Soft Focus Primer",
-        "货架位": null
     },
     {
         "SKU": "CP0104",
@@ -10807,12 +10772,12 @@
     {
         "SKU": "A1218-Modelo2",
         "标题": "Kit 4 Grampos Fixador Para Instalação Na Frente Da Gaveta(Modelo2)",
-        "货架位": "1-1-7"
+        "货架位": "0017"
     },
     {
         "SKU": "A1218-Modelo1",
         "标题": "Kit 4 Grampos Fixador Para Instalação Na Frente Da Gaveta(Modelo1)",
-        "货架位": "1-1-7"
+        "货架位": "0017"
     },
     {
         "SKU": "A1238",
@@ -11097,7 +11062,7 @@
     {
         "SKU": "A1214-Preto",
         "标题": "4k Webcam Câmera Para Computador Notebook Com Suporte(Preto)",
-        "货架位": "19"
+        "货架位": "019"
     },
     {
         "SKU": "A1213",
@@ -11202,7 +11167,7 @@
     {
         "SKU": "A1190",
         "标题": "Conjunto De Maquiagem Infantil Lavável 32 Peças Com Estojo",
-        "货架位": "35"
+        "货架位": "13"
     },
     {
         "SKU": "A1189",
@@ -11292,7 +11257,7 @@
     {
         "SKU": "A1183",
         "标题": "Luz  Auxiliar Led Com Clipe Para Celular Macbook iPad",
-        "货架位": "20"
+        "货架位": "00020"
     },
     {
         "SKU": "A1182",
@@ -11727,7 +11692,7 @@
     {
         "SKU": "A1174",
         "标题": "Adaptador Controle Xbox One S/x Wireless Pc Windows",
-        "货架位": "5-3-3"
+        "货架位": "0019"
     },
     {
         "SKU": "A1108-Preto",
@@ -13735,11 +13700,6 @@
         "货架位": null
     },
     {
-        "SKU": "23072502-Coracao",
-        "标题": "Lanterna Para Cabeça A Prova D'água Led Magnética Cob(Coração)",
-        "货架位": null
-    },
-    {
         "SKU": "23072512",
         "标题": "Hyalu Vitamina B5 Sérum Anti-idade Reparador Reconstituinte",
         "货架位": null
@@ -13977,16 +13937,6 @@
     {
         "SKU": "23051001",
         "标题": "Soco Inglês Luatek Defesa Pessoal Em Aço Resistente 12 Cm",
-        "货架位": null
-    },
-    {
-        "SKU": "23051005-2",
-        "标题": "Kit 8 Maçaneta Adesivo Protetor Porta Fibra Carbono Resinado(honda)",
-        "货架位": null
-    },
-    {
-        "SKU": "23051005-1",
-        "标题": "Kit 8 Maçaneta Adesivo Protetor Porta Fibra Carbono Resinado(transparente)",
         "货架位": null
     },
     {
