@@ -67789,7 +67789,7 @@
     },
     {
         "产品 ID": "MLB3914035661",
-        "产品标题": "Máquina De Donuts Extra Grande De 100mm 2 Em 1 110v 750w",
+        "产品标题": "Máquina De Donuts Extra Grande De 100mm 2 Em 1 750w",
         "中文名": "100 毫米特大甜甜圈机 2 合 1 110v 750w",
         "产品图1": "http://http2.mlstatic.com/D_NQ_NP_935584-MLB80616241534_112024-F.jpg",
         "产品图2": "http://http2.mlstatic.com/D_NQ_NP_786724-MLB80616241546_112024-F.jpg",
@@ -67813,7 +67813,35 @@
         "变种图8": null,
         "变种图9": null,
         "变种图10": null,
-        "SKU": "A2105"
+        "SKU": "A2105-110V"
+    },
+    {
+        "产品 ID": "MLB3914035661",
+        "产品标题": "Máquina De Donuts Extra Grande De 100mm 2 Em 1  750w",
+        "中文名": "100 毫米特大甜甜圈机 2 合 1 110v 750w",
+        "产品图1": "http://http2.mlstatic.com/D_NQ_NP_935584-MLB80616241534_112024-F.jpg",
+        "产品图2": "http://http2.mlstatic.com/D_NQ_NP_786724-MLB80616241546_112024-F.jpg",
+        "产品图3": "http://http2.mlstatic.com/D_NQ_NP_611810-MLB80616241540_112024-F.jpg",
+        "产品图4": "http://http2.mlstatic.com/D_NQ_NP_862516-MLB80616241542_112024-F.jpg",
+        "产品图5": "http://http2.mlstatic.com/D_NQ_NP_778158-MLB80616241538_112024-F.jpg",
+        "产品图6": "http://http2.mlstatic.com/D_NQ_NP_855945-MLB80616241544_112024-F.jpg",
+        "产品图7": "http://http2.mlstatic.com/D_NQ_NP_731403-MLB80616241536_112024-F.jpg",
+        "产品图8": null,
+        "产品图9": null,
+        "产品图10": null,
+        "产品图11": null,
+        "产品图12": null,
+        "变种图1": null,
+        "变种图2": null,
+        "变种图3": null,
+        "变种图4": null,
+        "变种图5": null,
+        "变种图6": null,
+        "变种图7": null,
+        "变种图8": null,
+        "变种图9": null,
+        "变种图10": null,
+        "SKU": "A2105-220V"
     },
     {
         "产品 ID": "MLB3914508071",
@@ -76997,7 +77025,7 @@
         "变种图8": null,
         "变种图9": null,
         "变种图10": null,
-        "SKU": "CP0329-MHC2-10D"
+        "SKU": "A2296-MHC2-10D"
     },
     {
         "产品 ID": "MLB5216218678",
@@ -77025,7 +77053,7 @@
         "变种图8": "http://http2.mlstatic.com/D_NQ_NP_826950-MLB81040355284_122024-F.jpg",
         "变种图9": "http://http2.mlstatic.com/D_NQ_NP_644938-MLB81040355286_122024-F.jpg",
         "变种图10": "http://http2.mlstatic.com/D_NQ_NP_994045-MLB81040355300_122024-F.jpg",
-        "SKU": "CP0329-MHC2-16D"
+        "SKU": "A2296-MHC2-16D"
     },
     {
         "产品 ID": "MLB3950224057",
@@ -77081,7 +77109,7 @@
         "变种图8": null,
         "变种图9": null,
         "变种图10": null,
-        "SKU": "CP0331-Preto"
+        "SKU": "A2291-Preto"
     },
     {
         "产品 ID": "MLB3950209895",
@@ -77109,7 +77137,7 @@
         "变种图8": null,
         "变种图9": null,
         "变种图10": null,
-        "SKU": "CP0332"
+        "SKU": "A2294"
     },
     {
         "产品 ID": "MLB3950274709",
@@ -77221,7 +77249,7 @@
         "变种图8": null,
         "变种图9": null,
         "变种图10": null,
-        "SKU": "CP0336"
+        "SKU": "A2292"
     },
     {
         "产品 ID": "MLB5253204684",
@@ -77277,7 +77305,7 @@
         "变种图8": null,
         "变种图9": null,
         "变种图10": null,
-        "SKU": "CP0339"
+        "SKU": "A2295"
     },
     {
         "产品 ID": "MLB5253149828",
@@ -77333,7 +77361,7 @@
         "变种图8": null,
         "变种图9": null,
         "变种图10": null,
-        "SKU": "CP0341"
+        "SKU": "A2293"
     },
     {
         "产品 ID": "MLB5253200904",
